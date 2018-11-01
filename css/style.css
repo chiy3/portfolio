@@ -1074,7 +1074,7 @@ body.offcanvas {
   .colorlib-counters .colorlib-counter-label {
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 5px;
     margin-bottom: 2em;
     display: block; }
