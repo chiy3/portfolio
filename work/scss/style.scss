@@ -22,11 +22,11 @@ body {
 }
 // selection
 ::selection {
-  background: $brand-primary;
+  background: $brand-primary; 
   color: $brand-white;
 }
 ::-moz-selection {
-  background: $brand-primary;
+  background: $brand-primary; 
   color: $brand-white;
 }
 // Typography
@@ -61,7 +61,7 @@ a {
 		color: darken($brand-primary, 5%);
 		text-decoration: none!important;
 	}
-
+	
 }
 
 .probootstrap-header {
@@ -70,7 +70,7 @@ a {
 	width: 100%;
 	z-index: 12;
 	position: relative;
-	background: #F2F3F7;
+	background: #F2F2F2;
 	top: 0;
 	@media screen and (max-width: $screen-sm) {
 		padding-top: 30px;
@@ -196,11 +196,11 @@ a {
 			}
 			.probootstrap-mobile-menu-active & {
 				&:hover {
-					color: $brand-white;
+					color: $brand-white;	
 				}
 			}
 		}
-
+		
 		&.active {
 			a {
 				color: $brand-primary;
@@ -208,7 +208,7 @@ a {
 					color: $brand-primary;
 				}
 				.probootstrap-mobile-menu-active & {
-
+					
 					color: $brand-white;
 				}
 			}
@@ -257,8 +257,8 @@ a {
 	}
 }
 .probootstrap-right-nav {
-	position: absolute;
-	top: 3px;
+	position: absolute; 
+	top: 3px; 
 	right: 0;
 	margin: 0;
 	padding: 0;
@@ -394,7 +394,7 @@ a {
 			outline: none;
 			border: 2px solid lighten($brand-primary, 5%);
 		}
-
+		
 	}
 	&.btn-ghost {
 		background: transparent;
@@ -456,7 +456,7 @@ a {
 		border-top: 1px solid rgba(0,0,0,.1);
 	}
 	&.probootstrap-border-bottom {
-		border-bottom: 1px solid rgba(0,0,0,.1);
+		border-bottom: 1px solid rgba(0,0,0,.1);	
 	}
 	> .container {
 		&.probootstrap-border-top {
@@ -616,7 +616,7 @@ a {
 			float: none;
 		}
 	}
-
+	
 }
 .probootstrap-footer-widget {
 
@@ -634,7 +634,7 @@ a {
 		text-align: right;
 		@media screen and (max-width: $screen-sm) {
 			text-align: left;
-		}
+		}	
 	}
 }
 .probootstrap-link-wrap {
@@ -700,7 +700,7 @@ a {
 		bottom: 20px;
 		left: 20px;
 		position: absolute;
-
+		
 		h2, p {
 			color: $brand-white;
 			position: relative;
@@ -745,7 +745,7 @@ figure {
 	padding: 10px;
 }
 
-// accordion // panel
+// accordion // panel 
 .probootstrap-panel {
 	.panel {
 		background: none;
@@ -760,7 +760,7 @@ figure {
 		}
 		.panel-heading {
 			background: none;
-
+			
 			// color: $brand-white;
 			border-bottom: 2px solid rgba(255,255,255,.1);
 			a {
@@ -791,7 +791,7 @@ figure {
 						transform: translateY(-50%);
 					}
 				}
-
+				
 			}
 		}
 		.panel-body {
@@ -808,7 +808,7 @@ figure {
 	position: relative;
 	.probootstrap-video-play {
 		position: absolute;
-		top: 0;
+		top: 0; 
 		left: 0;
 		right: 0;
 		bottom: 0;
@@ -1005,7 +1005,7 @@ figure {
 					color: $brand-black;
 					span {
 						display: block;
-						color: lighten($brand-black, 74%);
+						color: lighten($brand-black, 74%); 
 					}
 				}
 			}
@@ -1461,9 +1461,9 @@ figure {
 		}
 		&:first-child {
 			> a {
-				padding-left: 0;
+				padding-left: 0;	
 			}
-
+			
 		}
 	}
 }
@@ -1475,7 +1475,7 @@ figure {
 	width: 100%;
 	padding: 20px;
 	border-radius: 0px;
-
+	
 	.icon {
 		position: relative;
 		display: block;
@@ -1493,7 +1493,7 @@ figure {
 	}
 	.heading {
 		@extend h3;
-
+		
 	}
 	p {
 		&:last-child {
@@ -1560,7 +1560,7 @@ figure {
 		font-weight: normal;
 		font-size: 14px;
 		text-transform: uppercase;
-	}
+	}	
 	.form-control {
 		height: 46px;
 		box-shadow: none;
@@ -1577,7 +1577,7 @@ figure {
 	}
 	textarea.form-control {
 		height: inherit;
-		resize:vertical;
+		resize:vertical; 
 	}
 }
 
@@ -1874,7 +1874,7 @@ figure {
 			border-radius: 4px;
 			overflow: hidden;
 		}
-
+		
 	}
 }
 .owl-carousel .owl-controls,
@@ -1899,12 +1899,12 @@ figure {
 .owl-carousel .owl-controls .owl-nav .owl-next,
 .owl-carousel-posts .owl-controls .owl-nav .owl-next {
 	right: 20px;
-
+	
 }
 .owl-carousel .owl-controls .owl-nav .owl-prev,
 .owl-carousel-posts .owl-controls .owl-nav .owl-prev {
 	left: 20px;
-
+	
 }
 
 .owl-carousel-posts .owl-controls .owl-nav .owl-next,
@@ -1916,7 +1916,7 @@ figure {
 	}
 	&:hover {
 		i {
-			color: $brand-black;
+			color: $brand-black;		
 		}
 	}
 }
@@ -1956,16 +1956,16 @@ figure {
 }
 .owl-theme .owl-dots {
 	position: absolute;
-	bottom: -30px;
+	bottom: -30px;	
 	width: 100%;
 	text-align: center;
 }
 .owl-carousel-fullwidth.owl-theme .owl-dots {
-	bottom: -30px;
+	bottom: -30px;	
 	margin-bottom: -2.5em;
 }
 .owl-work.owl-theme .owl-dots {
-	bottom: -30px;
+	bottom: -30px;	
 	margin-bottom: -2.5em;
 }
 .owl-theme .owl-dots .owl-dot span {
@@ -2030,8 +2030,8 @@ figure {
 // magnific popup
 .mfp-fade.mfp-bg {
   opacity: 0;
-  -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
+  -webkit-transition: all 0.15s ease-out; 
+  -moz-transition: all 0.15s ease-out; 
   transition: all 0.15s ease-out;
 }
 .mfp-fade.mfp-bg.mfp-ready {
@@ -2043,8 +2043,8 @@ figure {
 
 .mfp-fade.mfp-wrap .mfp-content {
   opacity: 0;
-  -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
+  -webkit-transition: all 0.15s ease-out; 
+  -moz-transition: all 0.15s ease-out; 
   transition: all 0.15s ease-out;
 }
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
@@ -2066,9 +2066,9 @@ figure {
 .mfp-with-zoom.mfp-bg {
 	opacity: 0;
 	-webkit-backface-visibility: hidden;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
 	transition: all 0.3s ease-out;
 }
 
@@ -2079,7 +2079,7 @@ figure {
 		opacity: 0.8;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing .mfp-container, 
 .mfp-with-zoom.mfp-removing.mfp-bg {
 	opacity: 0;
 }
@@ -2290,7 +2290,7 @@ figure {
 		display: table;
 		background: rgba(0,0,0,.5);
 		color: $brand-white;
-		text-align: center;
+		text-align: center;	
 		border-radius: 4px;
 		i {
 			height: 50px;
@@ -2303,5 +2303,5 @@ figure {
 			outline: none;
 			background: rgba(0,0,0,.9);
 		}
-	}
+	}	
 }
