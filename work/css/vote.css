@@ -376,6 +376,7 @@ footer .rights p{
     font-family: "raleway-regular";
     font-size: 13px;
     margin: auto; 
+    text-align: right;
 }
 
 footer .rights p a{
