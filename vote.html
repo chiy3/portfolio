@@ -11,13 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="work/css/vote.css">
 	<link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
     <script type="text/javascript" src="work/js/jquery.js"></script>
-    <script type="text/javascript" src="work/js/fancybox.js"></script>
-    <script type="text/javascript" src="work/js/fancybox-buttons.js"></script>
-    <script type="text/javascript" src="work/js/fancybox-media.js"></script>
-    <script type="text/javascript" src="work/js/fancybox-thumbs.js"></script>
-    <script type="text/javascript" src="work/js/wow.js"></script>
     <script type="text/javascript" src="work/js/main.js"></script>
-    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
 
 
@@ -36,7 +32,9 @@
 			<p>Front-End Development</p>
 		</div>
 
-			<a href="demo.html" target="blank" class="myButton animated wow rubberBand" data-wow-delay=".2s">View Demo</a>
+			<a href="demo.html" class="boton">
+			View Demo 
+			</a>
 			
 		</div>
 		
@@ -87,5 +85,20 @@
 	</footer>
 	<!--  End footer  -->
   
+
+  <script type="text/javascript">
+  	
+  	$(window).ready(function(){
+$(".boton").wrapInner('<div class=botontext></div>');
+    
+    $(".botontext").clone().appendTo( $(".boton") );
+    
+    $(".boton").append('<span class="twist"></span><span class="twist"></span><span class="twist"></span><span class="twist"></span>');
+    
+    $(".twist").css("width", "25%").css("width", "+=3px");
+});
+
+
+  </script>
 </body>
 </html>
