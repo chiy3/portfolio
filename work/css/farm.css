@@ -130,15 +130,6 @@ h5, h6          { font-weight: bolder }
 }
 
 
-.billboard .shadow{
-    position: absolute;
-    width: 100%;
-    height: 142px;
-    bottom: 0;
-    left: 0;
-    margin-bottom: -1px;
-    background: url('../img/shadow.png') repeat-x;
-}
 
 .billboard .caption{
     margin-top: 130px;
@@ -279,7 +270,7 @@ header.dark nav ul li a:hover{
 .overview  p{
     color: #838181;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px; 
     letter-spacing: .5px;
     width: 900px;
@@ -290,7 +281,6 @@ header.dark nav ul li a:hover{
 
 
 
-/*    Services    */
 
 .intro {
   
@@ -315,7 +305,7 @@ header.dark nav ul li a:hover{
 .intro ul li h2{
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 3%;
 }
@@ -331,27 +321,79 @@ header.dark nav ul li a:hover{
 }
 
 
-.demo1 {
+.process {
 
     display: block;
     width: 100%;
-    height: 400px;
-    text-align: center;
-    margin-top: 6%;
-    background-color: #f2f3f7;    
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  
+    height: 500px;
+    background-color: #ffffff; 
 
 }
 
-#mac {
- 
-    margin-top: 3.5%; 
+
+.process h2{
+    color: #616161;
+    font-family: "raleway-bold";
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 8%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+.process img {
+
+    margin-top: 5%;
+    margin-left: 17%;
+    width: 70%;
 
 }
+
+
+.background {
+
+    display: block;
+    width: 100%;
+    height: 1000px;
+    background-color: #ffffff;    
+
+}
+
+.background h2 {
+
+    color: #616161;
+    font-family: "raleway-bold";
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 8%;
+    text-align: left;
+    margin-left: 10%;
+
+}
+
+.background span {
+    display: block;
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 16px;
+    line-height: 28px; 
+    letter-spacing: .5px;
+    margin-left: 10%;
+    width: 1200px;
+    margin-top: 3%;
+
+
+}
+
+.background img {
+
+    width: 30%;
+    margin-top: 3%;
+    margin-left:35%;
+
+}
+
 
 
 .challenge {

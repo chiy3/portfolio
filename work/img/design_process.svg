@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1145px" height="315px" viewBox="0 0 1145 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.25781251%" y1="49.7500002%" x2="101.257813%" y2="49.7500002%" id="linearGradient-1">
+            <stop stop-color="#B4DEFA" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="0%"></stop>
+            <stop stop-color="#61AAF6" offset="0%"></stop>
+            <stop stop-color="#D0F4B9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.25781251%" y1="49.7500002%" x2="101.257813%" y2="49.7500002%" id="linearGradient-2">
+            <stop stop-color="#D3E4B5" offset="0%"></stop>
+            <stop stop-color="#F2F3A4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.25781251%" y1="49.7500002%" x2="101.257813%" y2="49.7500002%" id="linearGradient-3">
+            <stop stop-color="#F2F3A4" offset="0%"></stop>
+            <stop stop-color="#F2C3C0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-30.000000, -150.000000)">
+            <g id="Group-5" transform="translate(30.000000, 132.000000)">
+                <g id="Group" transform="translate(0.000000, 99.000000)"></g>
+                <circle id="Oval" fill="#B4DEFA" cx="120" cy="200" r="120"></circle>
+                <text id="User-Research" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="22" font-weight="normal" letter-spacing="2.244444" fill="#4A4A4A">
+                    <tspan x="30" y="152">User Research</tspan>
+                </text>
+                <text id="Field-Research-Conte" font-family="ArialMT, Arial" font-size="16" font-weight="normal" letter-spacing="1.571111" fill="#4A4A4A">
+                    <tspan x="56.2014417" y="195">Field Research</tspan>
+                    <tspan x="121" y="212"></tspan>
+                    <tspan x="34.5818587" y="229">Contextual Inquiries</tspan>
+                    <tspan x="121" y="246"></tspan>
+                    <tspan x="77.1327262" y="263">Interviews </tspan>
+                </text>
+                <g id="Group-3" transform="translate(605.000000, 93.000000)"></g>
+                <circle id="Oval" fill="#F2F3A4" cx="725" cy="213" r="120"></circle>
+                <text id="Prototyping" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="22" font-weight="normal" letter-spacing="2.244444" fill="#4A4A4A">
+                    <tspan x="655" y="152">Prototyping</tspan>
+                </text>
+                <text id="User-Flow-Wireframin" font-family="ArialMT, Arial" font-size="16" font-weight="normal" letter-spacing="1.571111" fill="#4A4A4A">
+                    <tspan x="682.926094" y="194">User Flow</tspan>
+                    <tspan x="726" y="211"></tspan>
+                    <tspan x="674.241702" y="228">Wireframing </tspan>
+                    <tspan x="726" y="245"></tspan>
+                </text>
+                <g id="Group-4" transform="translate(905.000000, 93.000000)"></g>
+                <circle id="Oval" fill="#F2C3C0" cx="1025" cy="213" r="120"></circle>
+                <text id="Final-Design" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="22" font-weight="normal" letter-spacing="2.244444" fill="#4A4A4A">
+                    <tspan x="951" y="152">Final Design</tspan>
+                </text>
+                <text id="Hi-fi-Interface" font-family="ArialMT, Arial" font-size="16" font-weight="normal" letter-spacing="1.571111" fill="#4A4A4A">
+                    <tspan x="965.646355" y="194">Hi-fi Interface</tspan>
+                </text>
+                <g id="Group-2" transform="translate(305.000000, 93.000000)"></g>
+                <circle id="Oval" fill="#D0F4B9" cx="425" cy="213" r="120"></circle>
+                <text id="Ideation" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="22" font-weight="normal" letter-spacing="2.244444" fill="#4A4A4A">
+                    <tspan x="378" y="152">Ideation</tspan>
+                    <tspan x="482.516099" y="152" font-size="20"> </tspan>
+                </text>
+                <text id="Persona-Brainstromin" font-family="ArialMT, Arial" font-size="16" font-weight="normal" letter-spacing="1.571111" fill="#4A4A4A">
+                    <tspan x="391.704236" y="195">Persona </tspan>
+                    <tspan x="427" y="212"></tspan>
+                    <tspan x="367.436216" y="229">Brainstroming </tspan>
+                </text>
+                <path id="Line-2" d="M352.690259,97.3361283 L349.137121,73.1093308 L331.39409,85.2516054 L352.690259,97.3361283 Z M204.565703,97.1091934 C220.025915,66.143736 244.257784,50.75 277.5,50.75 C303.414693,50.75 324.169478,62.9058958 339.986562,81.8573139 L341.107898,83.2008557 L343.794982,80.958183 L342.673645,79.6146411 C335.644169,71.1921944 327.342232,63.8162102 317.730267,58.1865666 C305.687834,51.1334191 292.278667,47.25 277.5,47.25 C242.91465,47.25 217.479853,63.4079177 201.434297,95.5457677 L200.652584,97.1114704 L203.78399,98.6748961 L204.565703,97.1091934 Z" fill="url(#linearGradient-1)" fill-rule="nonzero" style="mix-blend-mode: color-burn;"></path>
+                <path id="Line-2" d="M650.690259,97.3361283 L647.137121,73.1093308 L629.39409,85.2516054 L650.690259,97.3361283 Z M502.565703,97.1091934 C518.025915,66.143736 542.257784,50.75 575.5,50.75 C601.414693,50.75 622.169478,62.9058958 637.986562,81.8573139 L639.107898,83.2008557 L641.794982,80.958183 L640.673645,79.6146411 C633.644169,71.1921944 625.342232,63.8162102 615.730267,58.1865666 C603.687834,51.1334191 590.278667,47.25 575.5,47.25 C540.91465,47.25 515.479853,63.4079177 499.434297,95.5457677 L498.652584,97.1114704 L501.78399,98.6748961 L502.565703,97.1091934 Z" fill="url(#linearGradient-2)" fill-rule="nonzero" style="mix-blend-mode: color-burn;"></path>
+                <path id="Line-2" d="M958.690259,97.3361283 L955.137121,73.1093308 L937.39409,85.2516054 L958.690259,97.3361283 Z M810.565703,97.1091934 C826.025915,66.143736 850.257784,50.75 883.5,50.75 C909.414693,50.75 930.169478,62.9058958 945.986562,81.8573139 L947.107898,83.2008557 L949.794982,80.958183 L948.673645,79.6146411 C941.644169,71.1921944 933.342232,63.8162102 923.730267,58.1865666 C911.687834,51.1334191 898.278667,47.25 883.5,47.25 C848.91465,47.25 823.479853,63.4079177 807.434297,95.5457677 L806.652584,97.1114704 L809.78399,98.6748961 L810.565703,97.1091934 Z" fill="url(#linearGradient-3)" fill-rule="nonzero" style="mix-blend-mode: color-burn;"></path>
+                <text id="Identify-core-value" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" letter-spacing="0.0799999982" fill="#4A4A4A">
+                    <tspan x="168" y="14"></tspan>
+                    <tspan x="168" y="31">Identify core value of users</tspan>
+                    <tspan x="168" y="48"></tspan>
+                    <tspan x="168" y="65"></tspan>
+                    <tspan x="168" y="82"></tspan>
+                    <tspan x="168" y="99"></tspan>
+                </text>
+                <text id="Identify-solution" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" letter-spacing="0.08" fill="#4A4A4A">
+                    <tspan x="513" y="14"></tspan>
+                    <tspan x="513" y="31">Identify solution</tspan>
+                    <tspan x="513" y="48"></tspan>
+                    <tspan x="513" y="65"></tspan>
+                    <tspan x="513" y="82"></tspan>
+                    <tspan x="513" y="99"></tspan>
+                </text>
+                <text id="Identify-design" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" letter-spacing="0.08" fill="#4A4A4A">
+                    <tspan x="824" y="14"></tspan>
+                    <tspan x="824" y="31">Identify design </tspan>
+                    <tspan x="824" y="48"></tspan>
+                    <tspan x="824" y="65"></tspan>
+                    <tspan x="824" y="82"></tspan>
+                    <tspan x="824" y="99"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
