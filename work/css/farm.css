@@ -259,11 +259,13 @@ header.dark nav ul li a:hover{
 }
 
 .overview h2{
+
     color: #616161;
     font-family: "raleway-bold";
     font-size: 30px;
     font-weight: bold;
     padding-top: 3%;
+
    
 }
 
@@ -432,6 +434,7 @@ header.dark nav ul li a:hover{
 
 
 .research span {
+
     display: block;
     color: #838181;
     font-family: "raleway-regular";
@@ -501,69 +504,42 @@ header.dark nav ul li a:hover{
 
 
 
-
-
-.challenge {
+.value {
 
     display: block;
     width: 100%;
-    height: 300px;
+    height: 600px;
     background-color: #ffffff;    
 
 }
 
+.value h2 {
 
-
-.challenge h2{
-
-    margin-top: 10%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    text-align: center;
+    padding-top: 1%;
+    text-align: left;
+    margin-left: 17%;
+   
 }
 
-.challenge p{
 
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 18px;
-    line-height: 28px; 
-    margin-top: 2%;
-    margin-right: 23%;
-    margin-left: 23%;
-    letter-spacing: .5px;
-
-}
-
-.challenge img {
-
-
+.value span {
+	
     display: block;
-    width: 150px;
-    height: 200px;
-    float: left;
-    margin-left: 15%;
-    margin-top: 5%;
-    
-
-}
-
-.challenge span {
-
     color: #838181;
-    width:300px;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px; 
-    margin-top: 20%;
-    margin-left: -16%; 
-    margin-bottom: 5%; 
-    float: left;
-
-
+    letter-spacing: .5px;
+    margin-left: 17%;
+    width: 1000px;
+    margin-top: 3%;
 }
+
+
 
 
 .table {
@@ -610,62 +586,6 @@ header.dark nav ul li a:hover{
 
 }
 
-
-
-.value {
-
-    display: block;
-    width: 100%;
-    height: 710px;
-    background-color: #ffffff;  
-
-}
-
-.value h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.value span {
-
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 18px;
-    text-align: left;
-    margin-left: 20%;
-
-
-}
-
-.value img {
-
-    display: block;
-    width: 150px;
-    height: 200px;
-    float: left;
-    margin-top: 7%;
-    margin-left: 15%;
-}
-
-.value p {
-
-    color: #616161;
-    width: 300px;
-    font-family: "raleway-regular";
-    font-size: 20px;
-    line-height: 28px;
-    text-align: left;  
-    float: left;
-    margin-top: 21%;
-    margin-left: -16%;
-
-}
 
 
 .solution {
