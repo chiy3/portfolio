@@ -508,7 +508,7 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 600px;
+    height: 3000px;
     background-color: #ffffff;    
 
 }
@@ -539,53 +539,40 @@ header.dark nav ul li a:hover{
     margin-top: 3%;
 }
 
+.t {
 
-
-
-.table {
-
-    margin-top: 3%;
-    display: block;
-    height: 810px;
-    width: 100%;
-    background-color: #f2f3f7;    
-
-}
-
-
-.table h2 {
-
-    padding-top: 3%;
-    color: #616161;
+	color: #000000;
+    width: 220px;
     font-family: "raleway-bold";
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 1%;
-
-}
-
-.table span {
-
-  
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 18px;
-    text-align: center;
-    margin-left: 11%;
-
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 17%;
+    margin-top: 3%;
    
-}
-
-.table img {
-
-    width: 65%;
-    height: 65%;
-    margin-top:2.5%;
-    margin-left: 18%;
 
 }
 
+.c {
+
+	color: #838181;
+    width: 800px;
+    font-family: "raleway-regular";
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 17%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+
+
+}
+
+.value img {
+
+	width: 60%;
+	margin-left:20%;
+	margin-top: 6%;
+
+}
 
 
 .solution {
