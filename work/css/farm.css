@@ -571,7 +571,7 @@ header.dark nav ul li a:hover{
 
 display: block;
 width: 100%;
-height: 2000px;
+height: 2280px;
 background-color: #ffffff;    
 
 
@@ -621,15 +621,51 @@ background-color: #ffffff;
 
 }
 
-.ideation img {
+.persona {
 
-	width: 60%;
-	margin-left:20%;
+	width: 50%;
+	margin-left:25%;
 	margin-top: 6%;
 
 }
 
+.brainstorm {
 
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 40%;
+
+}
+
+.brainstormconclusion {
+
+
+display: block;
+width: 100%;
+height: 150px;
+background-color: #ffffff;    
+
+
+
+}
+
+
+.brainstormconclusion span {
+
+    display: block;
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 16px;
+    line-height: 28px; 
+    letter-spacing: .5px;
+    margin-left: 17%;
+    width: 1000px;
+    margin-top: 3%;
+
+
+
+
+}
 
 
 /*    footer    */
