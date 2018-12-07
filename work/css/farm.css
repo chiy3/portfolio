@@ -642,7 +642,7 @@ background-color: #ffffff;
 
 display: block;
 width: 100%;
-height: 150px;
+height: 400px;
 background-color: #ffffff;    
 
 
@@ -662,10 +662,40 @@ background-color: #ffffff;
     width: 1000px;
     margin-top: 3%;
 
+}
 
+.prototyping {
+
+display: block;
+width: 100%;
+height: 2280px;
+background-color: #ffffff;       
+
+}
+
+
+.prototyping h1 {
+
+    color: #616161;
+    font-family: "raleway-bold";
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 8%;
+    text-align: center;
 
 
 }
+
+
+.prototyping img {
+
+    width: 80%;
+    margin-left: 12%;
+
+
+}
+
+
 
 
 /*    footer    */
