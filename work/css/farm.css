@@ -664,17 +664,17 @@ background-color: #ffffff;
 
 }
 
-.prototyping {
+.wp {
 
 display: block;
 width: 100%;
-height: 2280px;
+height: 3700px;
 background-color: #ffffff;       
 
 }
 
 
-.prototyping h1 {
+.wp h1 {
 
     color: #616161;
     font-family: "raleway-bold";
@@ -686,16 +686,95 @@ background-color: #ffffff;
 
 }
 
+.wp h2 {
 
-.prototyping img {
+    color: #616161;
+    font-family: "raleway-bold";
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 8%;
+    text-align: left;
+    margin-left: 17%;
 
-    width: 80%;
-    margin-left: 12%;
+
+}
+
+.wp span {
+
+    display: block;
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 16px;
+    line-height: 28px; 
+    letter-spacing: .5px;
+    margin-left: 17%;
+    width: 1000px;
+    margin-top: 3%;
+
 
 
 }
 
 
+.wp img {
+
+    width: 80%;
+    margin-left: 14%;
+    margin-top: 3%;
+
+}
+
+.pp {
+
+display: block;
+width: 100%;
+height: 600px;
+background-color: #ffffff;
+
+
+
+}
+
+
+
+.pp h2 {
+
+    color: #616161;
+    font-family: "raleway-bold";
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 8%;
+    text-align: left;
+    margin-left: 17%;
+
+}
+
+.pp span {
+
+    display: block;
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 16px;
+    line-height: 28px; 
+    letter-spacing: .5px;
+    margin-left: 17%;
+    width: 500px;
+    margin-top: 7%;
+    float: left;
+
+
+}
+
+
+.pp img {
+
+    display: block;
+    float: left;
+    width:30%;
+    margin-left: 3%;
+
+
+}
 
 
 /*    footer    */
