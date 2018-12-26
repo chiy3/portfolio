@@ -952,6 +952,7 @@ body.offcanvas {
   margin-bottom: 30px; }
   .project .desc {
     position: absolute;
+    width: 100%;
     top: 0;
     bottom: 0;
     left: 0;
@@ -963,7 +964,7 @@ body.offcanvas {
     transition: 0.3s; }
     .project .desc .con {
       text-align: center;
-      top:30%;
+      top: 30%;
       padding: 20px;
       display: block;
       position: relative;
@@ -971,7 +972,7 @@ body.offcanvas {
       .project .desc .con .icon {
         position: absolute;
         bottom: 20px;
-        left: 20px;
+        left: 1px;
         right: 20px; }
         .project .desc .con .icon span {
           display: inline;
