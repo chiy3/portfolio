@@ -134,13 +134,13 @@
                 </g>
                 <g id="Group-2" transform="translate(44.000000, 272.000000)">
                     <text id="Duration" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400" line-spacing="24" letter-spacing="0.5" fill="#9E9E9E">
-                        <tspan x="25" y="13">10 minutes</tspan>
+                        <tspan x="25" y="17">10 minutes</tspan>
                     </text>
                     <text id="Difficulty" font-family="AvenirNext-Italic, Avenir Next" font-size="13" font-style="italic" font-weight="normal" line-spacing="24" letter-spacing="0.5" fill="#9E9E9E">
-                        <tspan x="144" y="13">Easy</tspan>
+                        <tspan x="144" y="17">Easy</tspan>
                     </text>
                     <text id="People" font-family="Helvetica" font-size="13" font-weight="normal" line-spacing="24" letter-spacing="0.5" fill="#9E9E9E">
-                        <tspan x="216" y="13">4 People</tspan>
+                        <tspan x="216" y="17">4 People</tspan>
                     </text>
                     <g id="Icons/ic_duration-small" fill="#BDBDBD">
                         <path d="M13.1666667,8.79166667 L13.1666667,12.875 C13.1666667,13.0390625 13.0390625,13.1666667 12.875,13.1666667 L9.95833333,13.1666667 C9.79427083,13.1666667 9.66666667,13.0390625 9.66666667,12.875 L9.66666667,12.2916667 C9.66666667,12.1276042 9.79427083,12 9.95833333,12 L12,12 L12,8.79166667 C12,8.62760417 12.1276042,8.5 12.2916667,8.5 L12.875,8.5 C13.0390625,8.5 13.1666667,8.62760417 13.1666667,8.79166667 Z M16.9583333,12 C16.9583333,9.265625 14.734375,7.04166667 12,7.04166667 C9.265625,7.04166667 7.04166667,9.265625 7.04166667,12 C7.04166667,14.734375 9.265625,16.9583333 12,16.9583333 C14.734375,16.9583333 16.9583333,14.734375 16.9583333,12 Z M19,12 C19,15.8645833 15.8645833,19 12,19 C8.13541667,19 5,15.8645833 5,12 C5,8.13541667 8.13541667,5 12,5 C15.8645833,5 19,8.13541667 19,12 Z" id="ic_duration_small"></path>
@@ -173,13 +173,13 @@
                 </text>
                 <g id="Group-2" transform="translate(43.000000, 571.000000)">
                     <text id="Duration" font-family="AvenirNext-Medium, Avenir Next" font-size="13" font-weight="400" line-spacing="24" letter-spacing="0.5" fill="#9E9E9E">
-                        <tspan x="25" y="13">30 minutes</tspan>
+                        <tspan x="25" y="17">30 minutes</tspan>
                     </text>
                     <text id="Difficulty" font-family="AvenirNext-Italic, Avenir Next" font-size="13" font-style="italic" font-weight="normal" line-spacing="24" letter-spacing="0.5" fill="#9E9E9E">
-                        <tspan x="144" y="13">Hard</tspan>
+                        <tspan x="144" y="17">Hard</tspan>
                     </text>
                     <text id="People" font-family="AvenirNext-Italic, Avenir Next" font-size="13" font-style="italic" font-weight="normal" line-spacing="24" letter-spacing="0.5" fill="#9E9E9E">
-                        <tspan x="216" y="13">8 people</tspan>
+                        <tspan x="216" y="17">8 people</tspan>
                     </text>
                     <g id="Icons/ic_duration-small" fill="#BDBDBD">
                         <path d="M13.1666667,8.79166667 L13.1666667,12.875 C13.1666667,13.0390625 13.0390625,13.1666667 12.875,13.1666667 L9.95833333,13.1666667 C9.79427083,13.1666667 9.66666667,13.0390625 9.66666667,12.875 L9.66666667,12.2916667 C9.66666667,12.1276042 9.79427083,12 9.95833333,12 L12,12 L12,8.79166667 C12,8.62760417 12.1276042,8.5 12.2916667,8.5 L12.875,8.5 C13.0390625,8.5 13.1666667,8.62760417 13.1666667,8.79166667 Z M16.9583333,12 C16.9583333,9.265625 14.734375,7.04166667 12,7.04166667 C9.265625,7.04166667 7.04166667,9.265625 7.04166667,12 C7.04166667,14.734375 9.265625,16.9583333 12,16.9583333 C14.734375,16.9583333 16.9583333,14.734375 16.9583333,12 Z M19,12 C19,15.8645833 15.8645833,19 12,19 C8.13541667,19 5,15.8645833 5,12 C5,8.13541667 8.13541667,5 12,5 C15.8645833,5 19,8.13541667 19,12 Z" id="ic_duration_small"></path>
