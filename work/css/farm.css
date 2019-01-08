@@ -821,7 +821,8 @@ background-color: #ffffff;
 
     display: block;
     width: 100%;
-    height: 2000px;
+    height: 3000px;
+
     
 
 
@@ -854,12 +855,28 @@ background-color: #ffffff;
 
 .pt iframe {
 
-    margin-left: 18%;
+    margin-left: 33%;
     margin-top: 3%;
-
+    width:35%;
+    height:25%; 
 
 }
 
+.pt img {
+
+    float: left;
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+#mock {
+
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 25%;
+
+}
 
 
 
