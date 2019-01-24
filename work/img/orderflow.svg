@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1042px" height="247px" viewBox="0 0 1042 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, -56.000000)">
+            <rect id="Rectangle" fill="#FFE799" x="0" y="140" width="120" height="64.8387097" rx="32.4193548"></rect>
+            <rect id="Rectangle" fill="#FFE799" x="368" y="138" width="120" height="64.8387097" rx="32.4193548"></rect>
+            <rect id="Rectangle" fill="#FFE799" x="368" y="238" width="120" height="64.8387097" rx="32.4193548"></rect>
+            <rect id="Rectangle" fill="#FFC0C0" x="184" y="140" width="120" height="64.8387097" rx="32.4193548"></rect>
+            <rect id="Rectangle" fill="#FFC0C0" x="551" y="139" width="120" height="64.8387097" rx="32.4193548"></rect>
+            <text id="Receive-order" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400" letter-spacing="0.430933386" fill="#4A4A4A">
+                <tspan x="32.9457331" y="167">Receive </tspan>
+                <tspan x="40.7546665" y="186">order</tspan>
+            </text>
+            <text id="Check-inventory-stat" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400" letter-spacing="0.471333385" fill="#4A4A4A">
+                <tspan x="222.119667" y="159">Check </tspan>
+                <tspan x="211.244" y="178">inventory </tspan>
+                <tspan x="223.466" y="197">status</tspan>
+            </text>
+            <text id="Confirm-order" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400" letter-spacing="0.471333385" fill="#4A4A4A">
+                <tspan x="401.109" y="165">Confirm</tspan>
+                <tspan x="409.653667" y="184">order</tspan>
+            </text>
+            <text id="Check-payment-method" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400" letter-spacing="0.377066702" fill="#4A4A4A">
+                <tspan x="590.355333" y="158">Check</tspan>
+                <tspan x="581.823267" y="177">payment </tspan>
+                <tspan x="585.0428" y="196">method</tspan>
+            </text>
+            <rect id="Rectangle" fill="#FFE799" x="737" y="142" width="120" height="64.8387097" rx="32.4193548"></rect>
+            <text id="Receive-payment" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400" letter-spacing="0.377066702" fill="#4A4A4A">
+                <tspan x="771.134267" y="167">Receive </tspan>
+                <tspan x="767.823267" y="186">payment</tspan>
+            </text>
+            <rect id="Rectangle" fill="#FFC0C0" x="922" y="138" width="120" height="64.8387097" rx="32.4193548"></rect>
+            <text id="Update-inventory" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400" letter-spacing="0.377066702" fill="#4A4A4A">
+                <tspan x="957.4638" y="166">Update</tspan>
+                <tspan x="950.6682" y="185">inventory</tspan>
+            </text>
+            <text id="Reject-order" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400" letter-spacing="0.377066702" fill="#4A4A4A">
+                <tspan x="406.5518" y="265">Reject</tspan>
+                <tspan x="408.889333" y="284">order</tspan>
+            </text>
+            <path id="Line" d="M179,174.5 L170,170 L170,179 L179,174.5 Z M124.5,175 L170.5,175 L171,175 L171,174 L170.5,174 L124.5,174 L124,174 L124,175 L124.5,175 Z" fill="#000000" fill-rule="nonzero" style="mix-blend-mode: saturation;"></path>
+            <path id="Line" d="M362,174.25 L353,169.75 L353,178.75 L362,174.25 Z M307.5,174.75 L353.5,174.75 L354,174.75 L354,173.75 L353.5,173.75 L307.5,173.75 L307,173.75 L307,174.75 L307.5,174.75 Z" fill="#000000" fill-rule="nonzero" style="mix-blend-mode: saturation;"></path>
+            <path id="Line" d="M546,174.25 L537,169.75 L537,178.75 L546,174.25 Z M491.5,174.75 L537.5,174.75 L538,174.75 L538,173.75 L537.5,173.75 L491.5,173.75 L491,173.75 L491,174.75 L491.5,174.75 Z" fill="#000000" fill-rule="nonzero" style="mix-blend-mode: saturation;"></path>
+            <path id="Line" d="M730,174.25 L721,169.75 L721,178.75 L730,174.25 Z M675.5,174.75 L721.5,174.75 L722,174.75 L722,173.75 L721.5,173.75 L675.5,173.75 L675,173.75 L675,174.75 L675.5,174.75 Z" fill="#000000" fill-rule="nonzero" style="mix-blend-mode: saturation;"></path>
+            <path id="Line" d="M916,174.25 L907,169.75 L907,178.75 L916,174.25 Z M861.5,174.75 L907.5,174.75 L908,174.75 L908,173.75 L907.5,173.75 L861.5,173.75 L861,173.75 L861,174.75 L861.5,174.75 Z" fill="#000000" fill-rule="nonzero" style="mix-blend-mode: saturation;"></path>
+            <path id="Line" d="M362.760199,264.926962 L361.919284,254.899856 L354.233965,259.58343 L362.760199,264.926962 Z M307.073038,174.510199 L357.921654,257.948156 L358.181853,258.375118 L359.035777,257.854721 L358.775579,257.427759 L307.926962,173.989801 L307.666764,173.562839 L306.812839,174.083236 L307.073038,174.510199 Z" fill="#000000" fill-rule="nonzero" style="mix-blend-mode: saturation;"></path>
+            <path d="M151.5,144.5 L151.5,207.5" id="Line-2" stroke="#D0021B" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,7"></path>
+            <path d="M889.25,145.5 L889.25,208.5" id="Line-2" stroke="#D0021B" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,7"></path>
+            <path d="M335.25,144.5 L335.25,207.5" id="Line-2" stroke="#D0021B" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,7"></path>
+            <path d="M518.25,146.5 L518.25,209.5" id="Line-2" stroke="#D0021B" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,7"></path>
+            <path d="M889.25,145.5 L889.25,208.5" id="Line-2" stroke="#D0021B" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,7"></path>
+            <path d="M702.75,146.5 L702.75,209.5" id="Line-2" stroke="#D0021B" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,7"></path>
+            <path d="M793,58 L793,88" id="Line-2" stroke="#D0021B" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,7"></path>
+            <text id="Swithch-bwteen-devic" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400" letter-spacing="0.3770667" fill="#000000">
+                <tspan x="803.543999" y="76">Swithch bwteen device/platform </tspan>
+            </text>
+        </g>
+    </g>
+</svg>
