@@ -1,17 +1,3 @@
-/*
-
-	
-    - fonts
-    - general css
-    - billboard
-    - header
-    - services
-    - video
-    - testimonials
-    - blog posts
-	- footer
-	
-*/
 
 
 
@@ -234,6 +220,7 @@ header{
 
 header .logo{
     float: left;
+    margin-left: -15%;
     
 }
 

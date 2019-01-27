@@ -221,7 +221,8 @@ header{
 }
 
 header .logo{
-    float: left;
+    float:left;
+    margin-left: -15%;
     
 }
 
