@@ -57,7 +57,7 @@
             <path d="M702.75,146.5 L702.75,209.5" id="Line-2" stroke="#D0021B" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,7"></path>
             <path d="M793,58 L793,88" id="Line-2" stroke="#D0021B" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,7"></path>
             <text id="Swithch-bwteen-devic" font-family="AvenirNext-Medium, Avenir Next" font-size="14" font-weight="400" letter-spacing="0.3770667" fill="#000000">
-                <tspan x="803.543999" y="76">Swithch bwteen device/platform </tspan>
+                <tspan x="803.543999" y="76">Switch bewteen device/platform </tspan>
             </text>
         </g>
     </g>
