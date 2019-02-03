@@ -481,6 +481,14 @@ header.dark nav ul li a:hover{
     margin-top: 3%;
 }
 
+.diagram {
+
+    display: block;
+    margin: auto;
+    width: 40%;
+
+}
+
 
 
 .icon {
@@ -733,6 +741,13 @@ background-color: #ffffff;
 
 }
 
+.function {
+
+    display: block;
+    margin:auto;
+    width: 60%;
+
+}
 
 .wp {
 
