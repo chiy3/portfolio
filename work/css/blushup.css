@@ -292,11 +292,18 @@ header.dark nav ul li a:hover{
    
 }
 
+a{
+
+     
+    color: #616161;
+}
+
 .link {
 
+  
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     padding-top: 3%;
     width: 600px;
@@ -596,6 +603,26 @@ header.dark nav ul li a:hover{
     margin: auto;
     width: 350px;
    
+}
+
+
+a{
+
+     
+    color: #616161;
+}
+
+.link {
+
+  
+    color: #616161;
+    font-family: "raleway-bold";
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 3%;
+    width: 350px;
+    margin: auto;
+
 }
 
 
