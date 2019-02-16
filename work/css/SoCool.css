@@ -799,7 +799,11 @@ h5, h6          { font-weight: bolder }
 
 
 
+.hide {
 
+    display: none;
+
+}
 
 
 
