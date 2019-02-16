@@ -11,7 +11,10 @@
 	<link rel="stylesheet" type="text/css" href="work/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="work/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="work/css/SoCool.css">
+	<link rel="stylesheet" href="work/css/scroll.css">
+	<link href="https://fonts.googleapis.com/css?family=Istok+Web:700" rel="stylesheet">
 	<link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+	<script src="work/js/modernizr.js"></script>
     <script type="text/javascript" src="work/js/jquery.js"></script>
     <script type="text/javascript" src="work/js/fancybox.js"></script>
     <script type="text/javascript" src="work/js/fancybox-buttons.js"></script>
@@ -53,7 +56,40 @@
 
 </head>
 <body>
-
+	<nav id="cd-vertical-nav">
+		<ul>
+			<li>
+				<a href="#section1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Overview</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Research & Analysis</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Final Design</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section4" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Evaluation</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section5" data-number="5">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Reflection</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
 	<section class="billboard dark">
 		<header class="wrapper dark">
 			<a href="index.html"><img class="logo" src="work/img/eric.svg" alt=""/></a>
@@ -68,6 +104,7 @@
 		
 	</section><!--  End billboard  -->
 
+	<section id="section1" class="cd-section">
 	<div class="overview">
 		<div class="animated wow fadeInDown">
 		<h2> Overview </h2>
@@ -104,7 +141,9 @@
 			
 	</div>
 			</div>
+	</section>
 
+	<section id="section2" class="cd-section">
 	<section class="challenge wrapper">
 		<div class="animated wow fadeInUp">
 			<h2> Challenge </h2>
@@ -139,10 +178,12 @@
 
 	</section>
 
+	</section>
 
+	<section id="section3" class="cd-section">
 	<section class="solution wrapper">
 
-		<div class="animated wow fadeIn"><h2>Solution Design</h2>
+		<div class="animated wow fadeIn"><h2>Final Design</h2>
 		<p id="q">"How could we provide an efficient tool with down-to-earth content and positive effect to users?"</p></div>
 
 		<p class="animated wow fadeInUp" id="s1">After interviewing 10 students and surveying among 68 students, we discovered that Youtube is popular media to get touch with English within users. However, most of users only regard it as an entertainment rather than a tool. Thus, we decided to start with making Youtube educational.</p>
@@ -162,9 +203,9 @@
 		
 		<script src="https://player.vimeo.com/api/player.js"></script> 
 			</section>
+			</section>
 
-
-		<section class="evaluation wrapper">
+		<section id="section4" class="evaluation wrapper cd-section">
 			<div class="animated wow fadeInUp"><h2>Evaluation</h2>
 			<span>To evaluate our project and gain feedback, we conducted pretest-posttest with 2 classes. Total sample number was 68. <br> According to the outcome, correct rate of pronunciation increases the most (90.2%) and vocabulary comes in second place (80%). Moreover, correct rate of grammar rises the least. We speculate that due to the complexity of grammar,  it is difficult to have obvious  enhance in grammar skill. Last but not least, the correct rate of expression climbs up from 34% to 58.6%. Although long-term evaluation is still needed, we agree that So Cool English has potential to become even better in the future. </span>
 			 <div id="chart_div" style="width: 100%; height: 500px; top: 3%;"></div></div>
@@ -175,7 +216,7 @@
 		</section>
 
 
-		<section class="afterword wrapper">
+		<section id="section5" class="afterword wrapper cd-section">
 			<div class="animated wow fadeInUp">
 			<h2>Reflection</h2>
 			<h3>“Empathy always comes in the first place”</h3>
@@ -201,5 +242,7 @@
 		</div>		
 	</footer>
 	<!--  End footer  -->
-
+	<script src="work/js/jquery-2.1.1.js"></script>
+	<script src="work/js/scroll.js"></script> 
+</body>
 </html>
