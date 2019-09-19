@@ -1305,12 +1305,13 @@ header.dark nav ul li a:hover{
 
 .evaluation h2 {
 
-    padding-top: 5%;
+    padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
     font-size: 28px;
     font-weight: bold;
     text-align: center;
+    padding-bottom: 1%;
 
 
 }
