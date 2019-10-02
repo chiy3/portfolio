@@ -80,11 +80,12 @@
   }
 }
 
-
+@media screen and (min-width:1101px){
 
 /*  General CSS*/
 body{
     background: #fff;
+    max-width: 1440px;
 }
 
 .wrapper{
@@ -741,7 +742,7 @@ footer .rights p a{
     font-weight: bold;
     text-decoration: none;
 }
-
+}
 
 
 
