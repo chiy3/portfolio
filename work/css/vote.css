@@ -37,12 +37,13 @@
     font-style: normal;
 
 }
-
+@media screen and (min-width:651px){
 
 
 /*  General CSS*/
 body{
     background: #fff;
+    max-width: 1440px;
 }
 
 .wrapper{
@@ -291,7 +292,7 @@ header.dark nav ul li a:hover{
     width:700px;
     color: #838181;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px; 
     letter-spacing: .5px;
 }
@@ -534,7 +535,7 @@ footer .rights p a{
     font-weight: bold;
     text-decoration: none;
 }
-
+}
 
 @media screen and (max-width:650px){
 
