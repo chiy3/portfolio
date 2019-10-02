@@ -39,11 +39,13 @@
 
 }
 
-
+@media screen and (min-width:651px){
 
 /*  General CSS*/
 body{
     background: #fff;
+    max-width: 1440px;
+
 }
 
 .wrapper{
@@ -119,8 +121,14 @@ h5, h6          { font-weight: bolder }
   }
 }
 
+p {
+	max-width: 100%;
+}
 
+span {
 
+	max-width: 100%;
+}
 
 
 
@@ -1017,7 +1025,7 @@ footer .rights p a{
     font-weight: bold;
     text-decoration: none;
 }
-
+}
 
 
 
@@ -1105,7 +1113,7 @@ h5, h6          { font-weight: bolder }
 
 hr {
 
-width: 350px;
+width: 90%;
 margin-left: 30px;
 
 }
@@ -1310,12 +1318,12 @@ header.dark nav ul li a:hover{
     display: block;
     width: 300px;
     float: left;
-    margin-left: 9%;
+    margin-left: 20%;
     text-align: center;
 }
 
 .intro ul li:first-child{
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 
@@ -1372,7 +1380,7 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 1850px;
+    height: 2000px;
     background-color: #ffffff;    
 
 }
@@ -1431,7 +1439,7 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 1850px;
+    height: 2200px;
     background-color: #ffffff;
 
 }
@@ -1609,7 +1617,7 @@ header.dark nav ul li a:hover{
 
 display: block;
 width: 100%;
-height: 1600px;
+height: 1950px;
 background-color: #ffffff;    
 
 
@@ -1681,7 +1689,7 @@ background-color: #ffffff;
 
 display: block;
 width: 100%;
-height: 1200px;
+height: 1400px;
 background-color: #ffffff;    
 
 
@@ -1750,7 +1758,7 @@ background-color: #ffffff;
 
 display: block;
 width: 100%;
-height: 1240px;
+height: 1500px;
 background-color: #ffffff;       
 
 }
