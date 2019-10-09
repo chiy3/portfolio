@@ -1261,7 +1261,6 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 400px;
     text-align: center;
     background-color: #fff; 
 
@@ -1285,8 +1284,8 @@ header.dark nav ul li a:hover{
     font-size: 14px;
     line-height: 28px; 
     letter-spacing: .5px;
-    width: 300px;
-    margin: auto;
+    width: 80%;
+    margin-left: 10%;
 }
 
 
@@ -1302,14 +1301,15 @@ header.dark nav ul li a:hover{
 .intro ul li{
     list-style: none;
     display: block;
-    width: 300px;
+    width: 21%;
     float: left;
-    margin-left: 20%;
+    margin-right:10%;
     text-align: center;
+    margin-top: 10%;
 }
 
 .intro ul li:first-child{
-    margin-left: 20%;
+    margin-left: 6%;
 }
 
 
@@ -1336,7 +1336,6 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 200px;
     background-color: #ffffff; 
 
 }
@@ -1356,8 +1355,8 @@ header.dark nav ul li a:hover{
 .process img {
 
     margin-top: 5%;
-    margin-left: 0%;
-    width: 100%;
+    margin-left: 10%;
+    width: 80%;
 
 }
 
@@ -1366,7 +1365,6 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 2000px;
     background-color: #ffffff;    
 
 }
@@ -1390,8 +1388,8 @@ header.dark nav ul li a:hover{
     font-size: 16px;
     line-height: 28px; 
     letter-spacing: .5px;
-    margin-left: 3%;
-    width: 350px;
+    margin-left: 10%;
+    width: 80%;
     margin-top: 3%;
 
 }
@@ -1401,22 +1399,22 @@ header.dark nav ul li a:hover{
     display: block;
     color: #838181;
     font-family: "raleway-regular";
-    font-size: 15px;
+    font-size: 14px;
     line-height: 45px; 
     letter-spacing: .5px;
-    margin-left: 3%;
+    margin-left: 10%;
     margin-top: 3%;
     font-weight: bold;
     font-style: italic;
+    width: 80%;
 
 }
 
 .background img {
 
-    width: 100%;
+    width: 80%;
     margin-top: 3%;
-    margin-left:0%;
-    margin-bottom: -3%;
+    margin-left:10%;
 
 }
 
@@ -1425,7 +1423,6 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 2200px;
     background-color: #ffffff;
 
 }
@@ -1465,10 +1462,54 @@ header.dark nav ul li a:hover{
     font-size: 14px;
     line-height: 28px; 
     letter-spacing: .5px;
-    margin-left: 3%;
-    width: 350px;
+    margin-left: 10%;
+    width: 80%;
     margin-top: 3%;
 }
+
+
+.research ul li{
+    list-style: none;
+    display: block;
+    width: 28%;
+    float: left;
+    margin-top: 5%;
+    margin-right:2%;
+    text-align: center;
+}
+
+.research ul li:first-child{
+    margin-left: 0%;
+}
+
+
+.research p {
+
+    color: #838181;
+    width: 100%;
+    font-family: "raleway-regular";
+    font-size: 14px;
+    line-height: 28px;
+    float: left;
+    margin-left: 17%;
+    margin-top: 10%;
+
+
+
+}
+
+
+
+
+
+.diagram {
+
+    display: block;
+    margin: 10%;
+    width: 80%;
+}
+
+
 
 
 
@@ -1485,62 +1526,12 @@ header.dark nav ul li a:hover{
 
 
 
-.research #d1 {
-
-    color: #838181;
-    width: 220px;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    float: left;
-    margin-left: 10%;
-    margin-top: 15px;
-
-
-
-}
-
-.research #d2 {
-
-    color: #838181;
-    width: 220px;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    float: left;
-    margin-left: 10%;
-    margin-top: 15px;
-
-
-
-}
-
-.research #d3 {
-
-    color: #838181;
-    width: 220px;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    float: left;
-    margin-left: 10%;
-    margin-top: 15px;
-
-
-
-}
-
-
-
-
-
 
 
 .value {
 
     display: block;
     width: 100%;
-    height: 1050px;
     background-color: #ffffff;    
 
 }
@@ -1567,7 +1558,8 @@ header.dark nav ul li a:hover{
     line-height: 28px; 
     letter-spacing: .5px;
     margin-left: 3%;
-    width: 350px;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 2%;
 }
 
@@ -1603,7 +1595,6 @@ header.dark nav ul li a:hover{
 
 display: block;
 width: 100%;
-height: 1950px;
 background-color: #ffffff;    
 
 
@@ -1643,11 +1634,11 @@ background-color: #ffffff;
     display: block;
     color: #838181;
     font-family: "raleway-regular";
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px; 
     letter-spacing: .5px;
-    margin-left: 3%;
-    width: 350px;
+    margin-left: 10%;
+    width: 80%;
     margin-top: 3%;
 
 
@@ -1655,8 +1646,8 @@ background-color: #ffffff;
 
 .persona {
 
-    width: 100%;
-    margin-left:0px;
+    width: 80%;
+    margin-left:10%;
     margin-top: 6%;
 
 }
@@ -1675,7 +1666,6 @@ background-color: #ffffff;
 
 display: block;
 width: 100%;
-height: 1400px;
 background-color: #ffffff;    
 
 
@@ -1705,11 +1695,11 @@ background-color: #ffffff;
     display: block;
     color: #838181;
     font-family: "raleway-regular";
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px; 
     letter-spacing: .5px;
-    margin-left: 3%;
-    width: 350px;
+    margin-left: 10%;
+    width: 80%;
     margin-top: 3%;
 
 }
@@ -1719,11 +1709,11 @@ background-color: #ffffff;
     display: block;
     color: #000000;
     font-family: "raleway-bold";
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px; 
     letter-spacing: .5px;
-    margin-left: 3%;
-    width: 350px;
+    margin-left: 10%;
+    width: 80%;
     margin-top: 3%;  
 
 
@@ -1733,9 +1723,9 @@ background-color: #ffffff;
 
 .brainstormconclusion img{
 
-    width: 95%;
+    width: 90%;
     margin-left: 2%; 
-    margin-top: 3%;
+    margin-top: 5%;
 
 }
 
@@ -1744,7 +1734,6 @@ background-color: #ffffff;
 
 display: block;
 width: 100%;
-height: 1500px;
 background-color: #ffffff;       
 
 }
@@ -1783,8 +1772,8 @@ background-color: #ffffff;
     font-size: 14px;
     line-height: 28px; 
     letter-spacing: .5px;
-    margin-left: 3%;
-    width: 350px;
+    margin-left: 10%;
+    width: 80%;
     margin-top: 3%;
 
 
@@ -1794,8 +1783,8 @@ background-color: #ffffff;
 
 .wp img {
 
-    width: 95%;
-    margin-left: 2%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 3%;
 
 }
@@ -1804,7 +1793,6 @@ background-color: #ffffff;
 
 display: block;
 width: 100%;
-height: 700px;
 background-color: #ffffff;
 
 
@@ -1833,10 +1821,10 @@ background-color: #ffffff;
     font-size: 14px;
     line-height: 28px; 
     letter-spacing: .5px;
-    margin-left: 3%;
-    width: 350px;
+    margin-left: 10%;
+    width: 80%;
     margin-top: 3%;
-    float: left;
+   
 
 
 }
@@ -1846,8 +1834,8 @@ background-color: #ffffff;
 
     display: block;
     float: left;
-    width:100%;
-    margin-left: 0%;
+    width:80%;
+    margin-left: 10%;
     margin-top:5%;
     margin-bottom: 15px;
 
@@ -1859,7 +1847,6 @@ background-color: #ffffff;
 
     display: block;
     width: 100%;
-    height: 2400px;
 
     
 
@@ -1887,7 +1874,8 @@ background-color: #ffffff;
     font-weight: bold;
     padding-top: 8%;
     text-align: left;
-    margin-left: 3%;
+    margin-left: 10%;
+    width: 80%;
 
 }
 
@@ -1902,23 +1890,26 @@ background-color: #ffffff;
 .gr {
 
     float: left;
-    width: 250px;
+    width: 40%;
     margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 6%;
    
 }
 
 .funicon {
 
-   margin-left: -10%;
+   
     margin-top:3%;
-    width:100%;
+    width:90%;
+    margin-left: 5%;
 }
 
 #mock {
 
-    width: 60%;
+    width: 80%;
     margin-top: 10%;
-    margin-left: 25%;
+    margin-left: 10%;
 
 }
 
@@ -1926,7 +1917,6 @@ background-color: #ffffff;
 
     display: block;
     width: 100%;
-    height: 700px;
     background-color: #ffffff;
 
 }
@@ -1950,8 +1940,8 @@ background-color: #ffffff;
     font-size: 14px;
     line-height: 28px; 
     letter-spacing: .5px;
-    margin-left: 7%;
-    width: 350px;
+    margin-left: 10%;
+    width: 80%;
     margin-top: 3%;
     text-align: center;
     font-style: italic;
@@ -1968,8 +1958,8 @@ background-color: #ffffff;
     font-size: 14px;
     line-height: 28px; 
     letter-spacing: .5px;
-    margin-left: 3%;
-    width: 350px;
+    margin-left: 10%;
+    width: 80%;
     margin-top: 3%;
     float: left;
 
