@@ -130,6 +130,14 @@ span {
 	max-width: 100%;
 }
 
+hr {
+
+width: 70%;
+margin-left: 15%;
+
+}
+
+
 
 
 /*    Billboard    */
@@ -304,7 +312,7 @@ header.dark nav ul li a:hover{
     font-size: 16px;
     line-height: 28px; 
     letter-spacing: .5px;
-    width: 900px;
+    width: 66%;
     margin: auto;
 }
 
@@ -321,14 +329,14 @@ header.dark nav ul li a:hover{
 .intro ul li{
     list-style: none;
     display: block;
-    width: 300px;
+    width: 21%;
     float: left;
-    margin-left: 9%;
+    margin-right:2%;
     text-align: center;
 }
 
 .intro ul li:first-child{
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 
@@ -410,7 +418,7 @@ header.dark nav ul li a:hover{
     line-height: 28px; 
     letter-spacing: .5px;
     margin-left: 17%;
-    width: 1000px;
+    width: 66%;
     margin-top: 3%;
 
 }
@@ -444,7 +452,7 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 2500px;
+    height: 2100px;
     background-color: #ffffff;
 
 }
@@ -468,7 +476,7 @@ header.dark nav ul li a:hover{
     font-family: "raleway-bold";
     font-size: 25px;
     font-weight: bold;
-    padding-top: 8%;
+    padding-top: 25px;
     text-align: left;
     margin-left: 17%;
 
@@ -485,7 +493,7 @@ header.dark nav ul li a:hover{
     line-height: 28px; 
     letter-spacing: .5px;
     margin-left: 17%;
-    width: 1000px;
+    width: 66%;
     margin-top: 3%;
 }
 
@@ -502,56 +510,41 @@ header.dark nav ul li a:hover{
 .icon {
 
     display: block;
-    width: 120px;
-    height: 200px;
-    float: left;
-    margin-left: 18%;
+    width: 40%;
+    margin-left: 50%;
     
 
 }
 
-.research #d1 {
+.research ul li{
+    list-style: none;
+    display: block;
+    width: 21%;
+    float: left;
+    margin-top: 5%;
+    margin-right:2%;
+    text-align: center;
+}
+
+.research ul li:first-child{
+    margin-left: 15%;
+}
+
+
+.research p {
 
 	color: #838181;
-    width: 220px;
+    width: 100%;
     font-family: "raleway-regular";
     font-size: 16px;
     line-height: 28px;
     float: left;
     margin-left: 17%;
+    margin-top: 10%;
 
 
 
 }
-
-.research #d2 {
-
-	color: #838181;
-    width: 220px;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    float: left;
-    margin-left: 11%;
-
-
-
-}
-
-.research #d3 {
-
-	color: #838181;
-    width: 220px;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    float: left;
-    margin-left: 12%;
-
-
-
-}
-
 
 
 
@@ -589,7 +582,7 @@ header.dark nav ul li a:hover{
     line-height: 28px; 
     letter-spacing: .5px;
     margin-left: 17%;
-    width: 1000px;
+    width: 66%;
     margin-top: 3%;
 }
 
@@ -625,7 +618,7 @@ header.dark nav ul li a:hover{
 
 display: block;
 width: 100%;
-height: 2280px;
+height: 2100px;
 background-color: #ffffff;    
 
 
@@ -651,7 +644,7 @@ background-color: #ffffff;
     font-family: "raleway-bold";
     font-size: 25px;
     font-weight: bold;
-    padding-top: 8%;
+    padding-top: 25px;
     text-align: left;
     margin-left: 17%;
 
@@ -1113,8 +1106,8 @@ h5, h6          { font-weight: bolder }
 
 hr {
 
-width: 90%;
-margin-left: 30px;
+width: 70%;
+margin-left: 15%;
 
 }
 
