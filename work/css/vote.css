@@ -312,11 +312,16 @@ header.dark nav ul li a:hover{
 .intro ul li{
     list-style: none;
     display: block;
-    width: 300px;
+    width: 21%;
     float: left;
-    margin-left: 9%;
+    margin-right:2%;
     text-align: center;
 }
+
+.intro ul li:first-child{
+    margin-left: 17%;
+}
+
 
 
 
