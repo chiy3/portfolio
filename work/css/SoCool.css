@@ -80,7 +80,7 @@
   }
 }
 
-@media screen and (min-width:1101px){
+@media screen and (min-width:651px){
 
 /*  General CSS*/
 body{
@@ -284,7 +284,7 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 250px;
+
     text-align: center;
     background-color: #fff; 
 
@@ -301,11 +301,14 @@ header.dark nav ul li a:hover{
 }
 
 .overview  p{
+
     color: #838181;
     font-family: "raleway-regular";
     font-size: 18px;
     line-height: 28px; 
     letter-spacing: .5px;
+    width: 60%;
+    margin-left: 20%;
 }
 
 
@@ -317,20 +320,21 @@ header.dark nav ul li a:hover{
 .intro {
   
     width: 100%;
+    display: block;
   
 }
 
 .intro ul li{
     list-style: none;
     display: block;
-    width: 300px;
+    width: 21%;
     float: left;
-    margin-left: 9%;
+    margin-right:2%;
     text-align: center;
 }
 
 .intro ul li:first-child{
-    margin-left: 10%;
+    margin-left: 17%;
 }
 
 
@@ -339,7 +343,7 @@ header.dark nav ul li a:hover{
     font-family: "raleway-bold";
     font-size: 22px;
     font-weight: bold;
-    margin-top: 3%;
+    margin-top: 10%;
 }
 
 .intro ul li p{
@@ -357,7 +361,7 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 400px;
+ 
     text-align: center;
     margin-top: 6%;
     background-color: #f2f3f7;    
@@ -380,7 +384,6 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 700px;
     background-color: #ffffff;    
 
 }
@@ -404,8 +407,8 @@ header.dark nav ul li a:hover{
     font-size: 18px;
     line-height: 28px; 
     margin-top: 2%;
-    margin-right: 23%;
-    margin-left: 23%;
+    width: 60%;
+    margin-left: 20%;
     letter-spacing: .5px;
 
 }
@@ -422,6 +425,21 @@ header.dark nav ul li a:hover{
     
 
 }
+
+.challenge ul li{
+    list-style: none;
+    display: block;
+    width: 21%;
+    float: left;
+    margin-right:5%;
+    text-align: center;
+}
+
+.challenge ul li:first-child{
+    margin-left: 16.5%;
+}
+
+
 
 .challenge span {
 
@@ -443,7 +461,6 @@ header.dark nav ul li a:hover{
 
     margin-top: 3%;
     display: block;
-    height: 810px;
     width: 100%;
     background-color: #f2f3f7;    
 
@@ -462,15 +479,16 @@ header.dark nav ul li a:hover{
 
 }
 
-.table span {
+.table p {
 
   
     color: #616161;
     font-family: "raleway-regular";
     font-size: 18px;
     text-align: center;
-    margin-left: 11%;
-
+    width: 60%;
+    margin-left: 20%;
+    line-height: 28px; 
    
 }
 
@@ -489,7 +507,6 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 710px;
     background-color: #ffffff;  
 
 }
@@ -512,6 +529,7 @@ header.dark nav ul li a:hover{
     font-size: 18px;
     text-align: left;
     margin-left: 20%;
+    width: 60%;
 
 
 }
@@ -521,22 +539,34 @@ header.dark nav ul li a:hover{
     display: block;
     width: 150px;
     height: 200px;
-    float: left;
     margin-top: 7%;
-    margin-left: 15%;
+    margin-left: 5%;
+}
+
+
+.value ul li{
+    list-style: none;
+    display: block;
+    width: 21%;
+    float: left;
+    margin-right:5%;
+    text-align: center;
+}
+
+.value ul li:first-child{
+    margin-left: 16.5%;
 }
 
 .value p {
 
     color: #616161;
-    width: 300px;
+    width: 85%;
     font-family: "raleway-regular";
     font-size: 18px;
     line-height: 28px;
     text-align: center;  
     float: left;
-    margin-top: 21%;
-    margin-left: -16%;
+    margin-top: 3%;
 
 }
 
@@ -545,8 +575,7 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 1900px;
-    background-color: rgba(140, 114, 114, 0.17);  
+    background-color: #f2f3f7; 
 
 }
 
@@ -568,61 +597,49 @@ header.dark nav ul li a:hover{
     font-family: "raleway-regular";
     font-size: 18px;
     font-weight: bold;
-    margin-left: 22%;
     margin-top: 3%;
+    text-align: center;
 
 }
 
 .solution #s1 {
 
-    display:inline-block;
-    width: 750px;
+
+    width: 60%;
     color: #616161;
     font-family: "raleway-regular";
     font-size: 18px;
     line-height: 30px;
     text-align: left;
     margin-top: 3%;
-    margin-left: 22.3%;
-
+    margin-left: 20%;
 
 }
 
 .solution #s2 {
-    float: left;
-    display:inline-block;
-    width: 400px;
+
+    width: 60%;
     color: #616161;
     font-family: "raleway-regular";
     font-size: 18px;
     line-height: 30px;
     text-align: left;
-    margin-top: 20%;
-    margin-left: 7%;
+    margin-left: 20%;
+
 
 }
 
 
-.solution #s3 {
+.solution iframe {
 
-    float: right;
-    display:inline-block;
-    width: 400px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 18px;
-    line-height: 30px;
-    text-align: left;
-    margin-right: 6%;
-    margin-top:-47.5%;
+    margin-left: 20%;
+
 }
-
    
 .evaluation {
 
 
     display: block;
-    height: 800px;
     width: 100%;
     background-color: #ffffff;  
 
@@ -643,13 +660,13 @@ header.dark nav ul li a:hover{
 .evaluation span {
 
     display: inline-block;
-    width: 1000px;
+    width: 80%;
     color: #616161;
     font-family: "raleway-regular";
     font-size: 18px;
     line-height: 28px;
     text-align: left;
-    margin-left: 15%;
+    margin-left: 10%;
 
 }
 
@@ -658,7 +675,6 @@ header.dark nav ul li a:hover{
 .afterword {
 
     display: block;
-    height: 813px;
     width: 100%;
     background-color: rgb(248,248,249);
 
@@ -693,13 +709,13 @@ header.dark nav ul li a:hover{
 .afterword span {
 
     display: inline-block;
-    width: 1000px;
+    width: 80%;
     color: #616161;
     font-family: "raleway-regular";
     font-size: 18px;
     line-height: 28px;
     text-align: left;
-    margin-left: 15%;
+    margin-left: 10%;
 
 }
 
@@ -749,697 +765,6 @@ footer .rights p a{
 
 
 
-@media screen and (max-width:1100px){
-
-
-body{
-    background: #fff;
-}
-
-.wrapper{
-    width: 600px;
-    margin: 0 auto;
-}
-
-h1, h2, h3, h4, h5 ,h6{
-    color: #626262;
-    font-family: "raleway-regular", arial;
-    letter-spacing: 1px;
-}
-
-h1              { font-size: 2em; margin: .67em 0 }
-h2              { font-size: 1.5em; margin: .75em 0 }
-h3              { font-size: 1.17em; margin: .83em 0 }
-h5              { font-size: .83em; margin: 1.5em 0 }
-h6              { font-size: .75em; margin: 1.67em 0 }
-h1, h2, h3, h4,
-h5, h6          { font-weight: bolder }
-
-.clearfix:before,  
-.clearfix:after {  
-    content: " ";  
-    display: table;  
-}  
-.clearfix:after {  
-    clear: both;  
-}  
- 
-.clearfix {  
-    *zoom: 1;  
-}
-
-
-
-
-/*    Billboard    */
-.billboard{
-    width: 100%;
-    height: 400px;
-    position: relative;
-}
-
-.billboard.light{
-    background: url('../img/billboard.jpg') no-repeat;   
-     
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
-.billboard.dark{
-    background: url('../img/billboard2.jpg') no-repeat;
-    
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
-
-.billboard .shadow{
-    position: absolute;
-    width: 100%;
-    height: 142px;
-    bottom: 0;
-    left: 0;
-    margin-bottom: -1px;
-    background: url('../img/shadow.png') repeat-x;
-}
-
-.billboard .caption{
-    margin-top: 0px;
-    text-align: center;
-}
-
-.billboard .caption.light{
-    color: #fff;
-}
-
-.billboard .caption.dark{
-    color: #5d5d5d;
-}
-
-.billboard .caption h1{
-    font-family: "raleway-bold";
-    font-size: 40px;
-    font-weight: bold; 
-    margin-bottom: 30px;
-}
-
-.billboard .caption.light h1{
-    color: #fff;
-}
-
-.billboard .caption.dark h1{
-    color: #5d5d5d;
-}
-
-.billboard .caption p{
-    font-family: "raleway-regular";
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-.billboard .caption.light p{
-    color: #fff;
-}
-
-.billboard .caption.dark p{
-    color: #5d5d5d;
-}
-
-.billboard .caption hr{
-    display: inline-block;
-    height: 1px;
-    width: 30px;
-    border: 0!important;   
-    margin: 0;
-    padding: 0;
-}
-
-.billboard .caption.light hr{
-    background: #fff;
-}
-
-.billboard .caption.dark hr{
-    background: #5d5d5d;
-}
-
-
-
-
-
-
-/*    header    */
-header{
-    width: 100%;
-    height: 125px;
-}
-
-header .logo{
-    float: left;
-    width: 20%;
-    margin-left: -200px;
-    margin-bottom: 8%;
-    
-    
-}
-
-header nav{
-    float: right;
-    margin-top: 57px;
-}
-
-
-header nav ul li{
-    list-style: none;
-    display: block;
-    float: left;
-    margin-left: 50px;
-}
-
-header nav ul li a{
-    text-decoration: none;  
-    font-family: "raleway-regular";
-    font-size: 14px;
-
-    transition:all .2s linear;
-    -webkit-transition:all .2s linear;
-    -moz-transition:all .2s linear;
-    -o-transition:all .2s linear;
-}
-
-header.light nav ul li a{  
-    color: #fff;
-}
-
-header.light nav ul li a:hover{
-    color: #B9B9B9;
-}
-
-header.dark nav ul li a{  
-    color: #5d5d5d;
-}
-
-header.dark nav ul li a:hover{
-    color: #919191;
-}
-
-
-.overview {
-
-    display: block;
-    width: 100%;
-    height: 220px;
-    text-align: center;
-    background-color: #fff; 
-
-    
-}
-
-.overview h2{
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    padding-top: 3%;
-   
-}
-
-.overview  p{
-    width: 900px;
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px; 
-    letter-spacing: .5px;
-    margin-left: 5%;
-
-}
-
-
-
-
-
-/*    Services    */
-
-.intro {
-  
-    width: 100%;
-  
-}
-
-.intro ul li{
-    list-style: none;
-    display: block;
-    width: 150px;
-    float: left;
-    text-align: center;
-}
-
-.intro ul li:first-child{
-    margin-left: 19%;
-}
-
-
-.intro ul li h2{
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 3%;
-}
-
-.intro ul li p{
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px; 
-    letter-spacing: .5px;
-
-}
-
-
-.demo1 {
-
-    display: block;
-    width: 100%;
-    height: 300px;
-    text-align: center;
-    margin-top: 6%;
-    background-color: #f2f3f7;    
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  
-
-}
-
-#mac {
- 
-    margin-top: 3.5%; 
-
-}
-
-
-.challenge {
-
-    display: block;
-    width: 100%;
-    height: 500px;
-    background-color: #ffffff;    
-
-}
-
-
-
-.challenge h2{
-
-    margin-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.challenge p{
-
-    display: block;
-    width: 900px;
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px; 
-    margin-top: 2%;
-    margin-left: 5%;
-    letter-spacing: .5px;
-
-}
-
-.challenge img {
-
-
-    display: block;
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin-left: 9%;
-    margin-top: 8%;
-    
-
-}
-
-.challenge span {
-
-    color: #838181;
-    width:300px;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px; 
-    margin-top: 20%;
-    margin-left: -16%; 
-    margin-bottom: 5%; 
-    float: left;
-
-
-}
-
-
-.table {
-
-    margin-top: 3%;
-    display: block;
-    height: 820px;
-    width: 100%;
-    background-color: #f2f3f7;    
-
-}
-
-
-.table h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 1%;
-
-}
-
-.table span {
-
-    display: block;
-    width: 900px;  
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    text-align: center;
-    margin-left: 5%;
-
-   
-}
-
-.table img {
-
-    width: 95%;
-    height:95%;
-    margin-top:5%;
-    margin-left: 2%;
-    
-
-}
-
-
-
-.value {
-
-    display: block;
-    width: 100%;
-    height: 880px;
-    background-color: #ffffff;  
-
-}
-
-.value h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.value span {
-
-    width: 900px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    text-align: left;
-    margin-left: 9%;
-
-
-}
-
-.value img {
-
-    display: block;
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin-top: 7%;
-    margin-left: 40%;
-}
-
-.value p {
-
-    color: #616161;
-    width: 900px;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;  
-    float: left;
-    margin-top: 3%;
-    margin-left: 0%;
-    
-
-}
-
-
-.solution {
-
-    display: block;
-    width: 100%;
-    height: 1400px;
-    background-color: rgba(140, 114, 114, 0.17);  
-
-}
-
-.solution h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-
-
-}
-
-.solution #q {
-    
-    display: block;
-    width: 900px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    font-weight: bold;
-    margin-left: 6%;
-    margin-top: 3%;
-    text-align: center;
-
-}
-
-.solution #s1 {
-
-    display:block;
-    width: 700px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 30px;
-    text-align: left;
-    margin-top: 6%;
-    margin-left: 16%;
-
-
-}
-
-.solution #s2 {
-    float: left;
-    display:block;
-    width: 350px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 30px;
-    text-align: left;
-    margin-top: 20%;
-   margin-left: 3%;
-
-}
-
-
-.solution #s3 {
-
-    float: right;
-    display:inline-block;
-    width: 350px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 30px;
-    text-align: left;
-    margin-right: 3%;
-    margin-top:-45%;
-}
-
-   
-.evaluation {
-
-
-    display: block;
-    height: 750px;
-    width: 100%;
-    background-color: #ffffff;  
-
-}
-
-.evaluation h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 1%;
-
-
-}
-    
-.evaluation span {
-
-    display: inline-block;
-    width: 900px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    text-align: left;
-    margin-left: 5%;
-
-}
-
-
-
-.afterword {
-
-    display: block;
-    height: 740px;
-    width: 100%;
-    background-color: rgb(248,248,249);
-
-}
-
-
-.afterword h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-
-
-
-}
-
-.afterword h3 {
-
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 20px;
-    font-style: italic;
-    text-align: center;
-
-
-}
-
-
-.afterword span {
-
-    display: inline-block;
-    width: 900px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    text-align: left;
-    margin-left: 5%;
-
-}
-
-.afterword img {
-
-
-    margin-top: 3%;
-    width: 70%;  
-    margin-left:15%;
-}
-
-
-
-/*    footer    */
-footer{
-    display: block;
-    padding: 35px 0;
-    overflow: hidden;
-    
-}
-
-footer .footer_logo{
-    float: left;
-
-}
-
-footer .rights p{
-   
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 13px;
-    margin: auto; 
-    text-align: right;
-}
-
-footer .rights p a{
-    color: #777;
-    font-family: "raleway-semibold";
-    font-size: 13px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  
@@ -1447,716 +772,7 @@ footer .rights p a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:750px){
-
-
-body{
-    background: #fff;
-}
-
-.wrapper{
-    width: 600px;
-    margin: 0 auto;
-}
-
-h1, h2, h3, h4, h5 ,h6{
-    color: #626262;
-    font-family: "raleway-regular", arial;
-    letter-spacing: 1px;
-}
-
-h1              { font-size: 2em; margin: .67em 0 }
-h2              { font-size: 1.5em; margin: .75em 0 }
-h3              { font-size: 1.17em; margin: .83em 0 }
-h5              { font-size: .83em; margin: 1.5em 0 }
-h6              { font-size: .75em; margin: 1.67em 0 }
-h1, h2, h3, h4,
-h5, h6          { font-weight: bolder }
-
-.clearfix:before,  
-.clearfix:after {  
-    content: " ";  
-    display: table;  
-}  
-.clearfix:after {  
-    clear: both;  
-}  
- 
-.clearfix {  
-    *zoom: 1;  
-}
-
-
-
-
-/*    Billboard    */
-.billboard{
-    width: 100%;
-    height: 400px;
-    position: relative;
-}
-
-.billboard.light{
-    background: url('../img/billboard.jpg') no-repeat;   
-     
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
-.billboard.dark{
-    background: url('../img/billboard2.jpg') no-repeat;
-    
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
-
-.billboard .shadow{
-    position: absolute;
-    width: 100%;
-    height: 142px;
-    bottom: 0;
-    left: 0;
-    margin-bottom: -1px;
-    background: url('../img/shadow.png') repeat-x;
-}
-
-.billboard .caption{
-    margin-top: 0px;
-    text-align: center;
-}
-
-.billboard .caption.light{
-    color: #fff;
-}
-
-.billboard .caption.dark{
-    color: #5d5d5d;
-}
-
-.billboard .caption h1{
-    font-family: "raleway-bold";
-    font-size: 40px;
-    font-weight: bold; 
-    margin-bottom: 30px;
-}
-
-.billboard .caption.light h1{
-    color: #fff;
-}
-
-.billboard .caption.dark h1{
-    color: #5d5d5d;
-}
-
-.billboard .caption p{
-    font-family: "raleway-regular";
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-.billboard .caption.light p{
-    color: #fff;
-}
-
-.billboard .caption.dark p{
-    color: #5d5d5d;
-}
-
-.billboard .caption hr{
-    display: inline-block;
-    height: 1px;
-    width: 30px;
-    border: 0!important;   
-    margin: 0;
-    padding: 0;
-}
-
-.billboard .caption.light hr{
-    background: #fff;
-}
-
-.billboard .caption.dark hr{
-    background: #5d5d5d;
-}
-
-
-
-
-
-
-/*    header    */
-header{
-    width: 100%;
-    height: 125px;
-}
-
-header .logo{
-    float: left;
-    width: 20%;
-    margin-left: -80px;
-    margin-bottom: 8%;
-    
-    
-}
-
-header nav{
-    float: right;
-    margin-top: 57px;
-}
-
-
-header nav ul li{
-    list-style: none;
-    display: block;
-    float: left;
-    margin-left: 50px;
-}
-
-header nav ul li a{
-    text-decoration: none;  
-    font-family: "raleway-regular";
-    font-size: 14px;
-
-    transition:all .2s linear;
-    -webkit-transition:all .2s linear;
-    -moz-transition:all .2s linear;
-    -o-transition:all .2s linear;
-}
-
-header.light nav ul li a{  
-    color: #fff;
-}
-
-header.light nav ul li a:hover{
-    color: #B9B9B9;
-}
-
-header.dark nav ul li a{  
-    color: #5d5d5d;
-}
-
-header.dark nav ul li a:hover{
-    color: #919191;
-}
-
-
-.overview {
-
-    display: block;
-    width: 100%;
-    height: 220px;
-    text-align: center;
-    background-color: #fff; 
-
-    
-}
-
-.overview h2{
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    padding-top: 3%;
-   
-}
-
-.overview  p{
-    width: 700px;
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px; 
-    letter-spacing: .5px;
-    margin-left: 2%;
-
-}
-
-
-
-
-
-/*    Services    */
-
-.intro {
-  
-    width: 100%;
-  
-}
-
-.intro ul li{
-    list-style: none;
-    display: block;
-    width: 150px;
-    float: left;
-    text-align: center;
-}
-
-.intro ul li:first-child{
-    margin-left: 10%;
-}
-
-
-.intro ul li h2{
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 3%;
-}
-
-.intro ul li p{
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px; 
-    letter-spacing: .5px;
-
-}
-
-
-.demo1 {
-
-    display: block;
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    margin-top: 6%;
-    background-color: #f2f3f7;    
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  
-
-}
-
-#mac {
- 
-    margin-top: 3.5%; 
-
-}
-
-
-.challenge {
-
-    display: block;
-    width: 100%;
-    height: 1200px;
-    background-color: #ffffff;    
-
-}
-
-
-
-.challenge h2{
-
-    margin-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.challenge p{
-
-    display: block;
-    width: 700px;
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px; 
-    margin-top: 2%;
-    margin-left: 3%;
-    letter-spacing: .5px;
-
-}
-
-.challenge img {
-
-
-    display: block;
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin-left: 35%;
-    margin-top: 8%;
-    
-
-}
-
-.challenge span {
-
-    color: #838181;
-    width:300px;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px; 
-    margin-top: 28%;
-    margin-left: -16%; 
-    margin-bottom: 5%; 
-    float: left;
-
-
-}
-
-
-.table {
-
-    margin-top: 3%;
-    display: block;
-    height: 650px;
-    width: 100%;
-    background-color: #f2f3f7;    
-
-}
-
-
-.table h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 1%;
-
-}
-
-.table span {
-
-    display: block;
-    width: 700px;  
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    text-align: center;
-    margin-left: 1%;
-
-   
-}
-
-.table img {
-
-    width: 95%;
-    height:95%;
-    margin-top:5%;
-    margin-left: 2%;
-    
-
-}
-
-
-
-.value {
-
-    display: block;
-    width: 100%;
-    height: 800px;
-    background-color: #ffffff;  
-
-}
-
-.value h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.value span {
-
-    width: 700px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    text-align: left;
-    margin-left: 8%;
-
-
-}
-
-.value img {
-
-    display: block;
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin-top: 7%;
-    margin-left: 40%;
-}
-
-.value p {
-
-    color: #616161;
-    width: 700px;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;  
-    float: left;
-    margin-top: 3%;
-    margin-left: 0%;
-    
-
-}
-
-
-.solution {
-
-    display: block;
-    width: 100%;
-    height: 1500px;
-    background-color: rgba(140, 114, 114, 0.17);  
-
-}
-
-.solution h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-
-
-}
-
-.solution #q {
-    
-    display: block;
-    width: 700px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    font-weight: bold;
-    margin-left: 6%;
-    margin-top: 3%;
-    text-align: center;
-
-}
-
-.solution #s1 {
-
-    display:inline-block;
-    width: 500px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 30px;
-    text-align: left;
-    margin-top: 7%;
-    margin-left: 22.3%;
-
-
-}
-
-.solution #s2 {
-    float: left;
-    display:inline-block;
-    width: 500px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 30px;
-    text-align: left;
-    margin-top: 105%;
-   
-
-}
-
-
-.solution #s3 {
-
-    float: right;
-    display:inline-block;
-    width: 500px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 30px;
-    text-align: left;
-    margin-right: 6%;
-    margin-top:15%;
-}
-
-   
-.evaluation {
-
-
-    display: block;
-    height: 1000px;
-    width: 100%;
-    background-color: #ffffff;  
-
-}
-
-.evaluation h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-
-
-}
-    
-.evaluation span {
-
-    display: inline-block;
-    width: 700px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    text-align: left;
-    margin-left: 3%;
-
-}
-
-
-
-.afterword {
-
-    display: block;
-    height: 615px;
-    width: 100%;
-    background-color: rgb(248,248,249);
-
-}
-
-
-.afterword h2 {
-
-    padding-top: 3%;
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-
-
-
-}
-
-.afterword h3 {
-
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 20px;
-    font-style: italic;
-    text-align: center;
-
-
-}
-
-
-.afterword span {
-
-    display: inline-block;
-    width: 700px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 16px;
-    line-height: 28px;
-    text-align: left;
-    margin-left: 4%;
-
-}
-
-.afterword img {
-
-
-    margin-top: 3%;
-    width: 70%;  
-    margin-left:15%;
-}
-
-
-
-/*    footer    */
-footer{
-    display: block;
-    padding: 35px 0;
-    overflow: hidden;
-    
-}
-
-footer .footer_logo{
-    float: left;
-
-}
-
-footer .rights p{
-   
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 13px;
-    margin: auto; 
-    text-align: right;
-}
-
-footer .rights p a{
-    color: #777;
-    font-family: "raleway-semibold";
-    font-size: 13px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-@media screen and (max-width:400px){
+@media screen and (max-width:650px){
 
 
 body{
@@ -2365,7 +981,6 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 220px;
     text-align: center;
     background-color: #fff; 
 
@@ -2404,15 +1019,16 @@ header.dark nav ul li a:hover{
 .intro ul li{
     list-style: none;
     display: block;
-    width: 300px;
+    width: 21%;
     float: left;
-    margin-left: 15%;
+    margin-right:5%;
     text-align: center;
 }
 
 .intro ul li:first-child{
-    margin-left: 15%;
+    margin-left: 13%;
 }
+
 
 
 .intro ul li h2{
@@ -2438,7 +1054,6 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 120px;
     text-align: center;
     margin-top: 6%;
     background-color: #f2f3f7;    
@@ -2457,11 +1072,10 @@ header.dark nav ul li a:hover{
 }
 
 
-.challenge {
+..challenge {
 
     display: block;
     width: 100%;
-    height: 1050px;
     background-color: #ffffff;    
 
 }
@@ -2473,20 +1087,20 @@ header.dark nav ul li a:hover{
     margin-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
 
 .challenge p{
 
-    display: block;
-    width: 280px;
     color: #838181;
     font-family: "raleway-regular";
-    font-size: 14px;
+    font-size: 18px;
     line-height: 28px; 
     margin-top: 2%;
+    width: 60%;
+    margin-left: 20%;
     letter-spacing: .5px;
 
 }
@@ -2495,8 +1109,8 @@ header.dark nav ul li a:hover{
 
 
     display: block;
-    width: 75px;
-    height: 100px;
+    width: 150px;
+    height: 200px;
     float: left;
     margin-left: 15%;
     margin-top: 5%;
@@ -2504,14 +1118,29 @@ header.dark nav ul li a:hover{
 
 }
 
+.challenge ul li{
+    list-style: none;
+    display: block;
+    width: 21%;
+    float: left;
+    margin-right:5%;
+    text-align: center;
+}
+
+.challenge ul li:first-child{
+    margin-left: 16.5%;
+}
+
+
+
 .challenge span {
 
     color: #838181;
     width:300px;
     font-family: "raleway-regular";
-    font-size: 14px;
+    font-size: 18px;
     line-height: 28px; 
-    margin-top: 28%;
+    margin-top: 20%;
     margin-left: -16%; 
     margin-bottom: 5%; 
     float: left;
@@ -2524,7 +1153,6 @@ header.dark nav ul li a:hover{
 
     margin-top: 3%;
     display: block;
-    height: 400px;
     width: 100%;
     background-color: #f2f3f7;    
 
@@ -2536,33 +1164,32 @@ header.dark nav ul li a:hover{
     padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 1%;
 
 }
 
-.table span {
+.table p {
 
-    display: block;
-    width: 300px;  
+  
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
-    margin-left: 11%;
-
+    width: 60%;
+    margin-left: 20%;
+    line-height: 28px; 
    
 }
 
 .table img {
 
-    width: 95%;
-    height:95%;
-    margin-top:5%;
-    margin-left: 2%;
-    
+    width: 65%;
+    height: 65%;
+    margin-top:2.5%;
+    margin-left: 18%;
 
 }
 
@@ -2572,7 +1199,6 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 650px;
     background-color: #ffffff;  
 
 }
@@ -2582,7 +1208,7 @@ header.dark nav ul li a:hover{
     padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 1%;
@@ -2592,9 +1218,10 @@ header.dark nav ul li a:hover{
 
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 14px;
+    font-size: 18px;
     text-align: left;
     margin-left: 20%;
+    width: 60%;
 
 
 }
@@ -2602,24 +1229,36 @@ header.dark nav ul li a:hover{
 .value img {
 
     display: block;
-    width: 75px;
-    height: 100px;
-    float: left;
+    width: 150px;
+    height: 200px;
     margin-top: 7%;
-    margin-left: 15%;
+    margin-left: 5%;
+}
+
+
+.value ul li{
+    list-style: none;
+    display: block;
+    width: 21%;
+    float: left;
+    margin-right:5%;
+    text-align: center;
+}
+
+.value ul li:first-child{
+    margin-left: 16.5%;
 }
 
 .value p {
 
     color: #616161;
-    width: 300px;
+    width: 85%;
     font-family: "raleway-regular";
-    font-size: 14px;
+    font-size: 18px;
     line-height: 28px;
     text-align: center;  
     float: left;
-    margin-top: 23%;
-    margin-left: -20%;
+    margin-top: 3%;
 
 }
 
@@ -2628,8 +1267,7 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    height: 1200px;
-    background-color: rgba(140, 114, 114, 0.17);  
+    background-color: #f2f3f7; 
 
 }
 
@@ -2638,7 +1276,7 @@ header.dark nav ul li a:hover{
     padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
 
@@ -2647,67 +1285,53 @@ header.dark nav ul li a:hover{
 
 .solution #q {
     
-    display: block;
-    width: 300px;
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    margin-left: 15%;
     margin-top: 3%;
+    text-align: center;
 
 }
 
 .solution #s1 {
 
-    display:inline-block;
-    width: 300px;
+
+    width: 60%;
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 14px;
+    font-size: 18px;
     line-height: 30px;
     text-align: left;
-    margin-top: 7%;
-    margin-left: 22.3%;
-
+    margin-top: 3%;
+    margin-left: 20%;
 
 }
 
 .solution #s2 {
-    float: left;
-    display:inline-block;
-    width: 300px;
+
+    width: 60%;
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 14px;
+    font-size: 18px;
     line-height: 30px;
     text-align: left;
-    margin-top: 105%;
-   
+    margin-left: 20%;
+
 
 }
 
 
-.solution #s3 {
+.solution iframe {
 
-    float: right;
-    display:inline-block;
-    width: 300px;
-    color: #616161;
-    font-family: "raleway-regular";
-    font-size: 14px;
-    line-height: 30px;
-    text-align: left;
-    margin-right: 6%;
-    margin-top:15%;
+    margin-left: 20%;
+
 }
-
    
 .evaluation {
 
 
     display: block;
-    height: 1000px;
     width: 100%;
     background-color: #ffffff;  
 
@@ -2718,7 +1342,7 @@ header.dark nav ul li a:hover{
     padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
 
@@ -2728,13 +1352,13 @@ header.dark nav ul li a:hover{
 .evaluation span {
 
     display: inline-block;
-    width: 300px;
+    width: 80%;
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 14px;
+    font-size: 18px;
     line-height: 28px;
     text-align: left;
-    margin-left: 15%;
+    margin-left: 10%;
 
 }
 
@@ -2743,7 +1367,6 @@ header.dark nav ul li a:hover{
 .afterword {
 
     display: block;
-    height: 500px;
     width: 100%;
     background-color: rgb(248,248,249);
 
@@ -2755,7 +1378,7 @@ header.dark nav ul li a:hover{
     padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
 
@@ -2767,7 +1390,7 @@ header.dark nav ul li a:hover{
 
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
     text-align: center;
 
@@ -2778,13 +1401,13 @@ header.dark nav ul li a:hover{
 .afterword span {
 
     display: inline-block;
-    width: 300px;
+    width: 80%;
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 14px;
+    font-size: 18px;
     line-height: 28px;
     text-align: left;
-    margin-left: 15%;
+    margin-left: 10%;
 
 }
 
@@ -2795,7 +1418,6 @@ header.dark nav ul li a:hover{
     width: 50%;  
     margin-left:23%;
 }
-
 
 
 /*    footer    */
