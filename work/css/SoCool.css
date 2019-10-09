@@ -633,6 +633,8 @@ header.dark nav ul li a:hover{
 .solution iframe {
 
     margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 3%;
 
 }
    
@@ -1002,6 +1004,8 @@ header.dark nav ul li a:hover{
     font-size: 14px;
     line-height: 28px; 
     letter-spacing: .5px;
+    width: 80%;
+    margin-left: 10%;
 }
 
 
@@ -1036,7 +1040,7 @@ header.dark nav ul li a:hover{
     font-family: "raleway-bold";
     font-size: 18px;
     font-weight: bold;
-    margin-top: 3%;
+    margin-top: 30%;
 }
 
 .intro ul li p{
@@ -1046,6 +1050,7 @@ header.dark nav ul li a:hover{
     line-height: 28px; 
     margin-top: 10%;
     letter-spacing: .5px;
+
 
 }
 
@@ -1072,7 +1077,7 @@ header.dark nav ul li a:hover{
 }
 
 
-..challenge {
+.challenge {
 
     display: block;
     width: 100%;
@@ -1087,7 +1092,7 @@ header.dark nav ul li a:hover{
     margin-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
 }
@@ -1096,12 +1101,13 @@ header.dark nav ul li a:hover{
 
     color: #838181;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px; 
     margin-top: 2%;
-    width: 60%;
-    margin-left: 20%;
+    width: 80%;
+    margin-left: 10%;
     letter-spacing: .5px;
+    text-align: center;
 
 }
 
@@ -1109,11 +1115,12 @@ header.dark nav ul li a:hover{
 
 
     display: block;
-    width: 150px;
-    height: 200px;
+    width: 100px;
+    height: 66px;
     float: left;
-    margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 30%;
+    margin-left: 20%;
+
     
 
 }
@@ -1123,12 +1130,12 @@ header.dark nav ul li a:hover{
     display: block;
     width: 21%;
     float: left;
-    margin-right:5%;
+    margin-right:8%;
     text-align: center;
 }
 
 .challenge ul li:first-child{
-    margin-left: 16.5%;
+    margin-left: 5%;
 }
 
 
@@ -1136,14 +1143,14 @@ header.dark nav ul li a:hover{
 .challenge span {
 
     color: #838181;
-    width:300px;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px; 
-    margin-top: 20%;
-    margin-left: -16%; 
+    margin-top: 20%; 
     margin-bottom: 5%; 
     float: left;
+    width: 140px;
+    margin-left: 0px;
 
 
 }
@@ -1164,7 +1171,7 @@ header.dark nav ul li a:hover{
     padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 1%;
@@ -1176,20 +1183,19 @@ header.dark nav ul li a:hover{
   
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    width: 60%;
-    margin-left: 20%;
+    width: 80%;
+    margin-left: 10%;
     line-height: 28px; 
    
 }
 
 .table img {
 
-    width: 65%;
-    height: 65%;
-    margin-top:2.5%;
-    margin-left: 18%;
+    width: 90%;
+    margin-top: 2.5%;
+    margin-left: 5%;
 
 }
 
@@ -1208,7 +1214,7 @@ header.dark nav ul li a:hover{
     padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 1%;
@@ -1216,12 +1222,14 @@ header.dark nav ul li a:hover{
 
 .value span {
 
+    display: block;
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 14px;
     text-align: left;
-    margin-left: 20%;
-    width: 60%;
+    margin-left: 10%;
+    width: 80%;
+    line-height: 28px;
 
 
 }
@@ -1229,8 +1237,8 @@ header.dark nav ul li a:hover{
 .value img {
 
     display: block;
-    width: 150px;
-    height: 200px;
+    width: 100px;
+    height: 66px;
     margin-top: 7%;
     margin-left: 5%;
 }
@@ -1241,20 +1249,21 @@ header.dark nav ul li a:hover{
     display: block;
     width: 21%;
     float: left;
-    margin-right:5%;
+    margin-right:10%;
     text-align: center;
+    margin-top: 5%;
 }
 
 .value ul li:first-child{
-    margin-left: 16.5%;
+    margin-left: 4%;
 }
 
 .value p {
 
     color: #616161;
-    width: 85%;
+    width: 150px;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
     text-align: center;  
     float: left;
@@ -1276,7 +1285,7 @@ header.dark nav ul li a:hover{
     padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
 
@@ -1287,36 +1296,38 @@ header.dark nav ul li a:hover{
     
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     margin-top: 3%;
     text-align: center;
-
+    width: 80%;
+    margin-left: 10%;
+    line-height: 28px;
 }
 
 .solution #s1 {
 
 
-    width: 60%;
+    width: 80%;
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 28px;
     text-align: left;
     margin-top: 3%;
-    margin-left: 20%;
+    margin-left: 10%;
 
 }
 
 .solution #s2 {
 
-    width: 60%;
+    width: 80%;
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 28px;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
 
 
 }
@@ -1324,7 +1335,9 @@ header.dark nav ul li a:hover{
 
 .solution iframe {
 
+
     margin-left: 20%;
+
 
 }
    
@@ -1342,7 +1355,7 @@ header.dark nav ul li a:hover{
     padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
 
@@ -1355,7 +1368,7 @@ header.dark nav ul li a:hover{
     width: 80%;
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
     text-align: left;
     margin-left: 10%;
@@ -1378,7 +1391,7 @@ header.dark nav ul li a:hover{
     padding-top: 3%;
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
 
@@ -1390,9 +1403,11 @@ header.dark nav ul li a:hover{
 
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 20px;
+    font-size: 14px;
     font-style: italic;
     text-align: center;
+    width: 80%;
+    margin-left: 10%;
 
 
 }
@@ -1404,9 +1419,9 @@ header.dark nav ul li a:hover{
     width: 80%;
     color: #616161;
     font-family: "raleway-regular";
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
-    text-align: left;
+    text-align: center;
     margin-left: 10%;
 
 }
@@ -1415,8 +1430,8 @@ header.dark nav ul li a:hover{
 
 
     margin-top: 3%;
-    width: 50%;  
-    margin-left:23%;
+    width: 70%;  
+    margin-left:15%;
 }
 
 
