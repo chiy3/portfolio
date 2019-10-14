@@ -664,6 +664,7 @@ background-color: #ffffff;
 
 }
 
+
 .persona {
 
 	width: 50%;
@@ -700,7 +701,7 @@ background-color: #ffffff;
     padding-top: 8%;
     text-align: left;
     margin-left: 17%;
-
+    
 
 
 
@@ -721,10 +722,10 @@ background-color: #ffffff;
 
 }
 
-.brainstormconclusion p {
+.goals {
 
     display: block;
-    color: #000000;
+    color: #838181;
     font-family: "raleway-bold";
     font-size: 16px;
     line-height: 28px; 
@@ -734,17 +735,51 @@ background-color: #ffffff;
     margin-top: 3%;  
 
 
-
 }
 
-.function {
+
+.function-row {
+
+    display: inline-block;
+    margin-left: 17%;
+    width: 66%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.function-img {
 
     display: block;
-    margin:auto;
-    width: 54%;
-    margin-top: 4%;
+    float: left; 
+    width: 15%;
+    
 
 }
+
+.function-text{
+
+    display: block;
+    float:left;
+    width: 83.5%;
+    margin-left: 1.5%;
+    margin-top: 3%;
+    
+
+}
+
+
+
+.function-text p {
+
+
+    color: #838181;
+    font-family: "raleway-bold";
+    font-size: 16px;
+    line-height: 28px; 
+    letter-spacing: .5px;
+
+}
+
 
 .wp {
 
@@ -1704,12 +1739,12 @@ background-color: #ffffff;
 
 }
 
-.brainstormconclusion p {
+.goals {
 
     display: block;
-    color: #000000;
+    color: #838181;
     font-family: "raleway-bold";
-    font-size: 14px;
+    font-size: 16px;
     line-height: 28px; 
     letter-spacing: .5px;
     margin-left: 10%;
@@ -1717,17 +1752,51 @@ background-color: #ffffff;
     margin-top: 3%;  
 
 
+}
+
+
+.function-row {
+
+    display: inline-block;
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.function-img {
+
+    display: block;
+    float: left; 
+    width: 20%;
+    
+
+}
+
+.function-text{
+
+    display: block;
+    float:left;
+    width: 78.5%;
+    margin-left: 1.5%;
+    margin-top: 3%;
+    
 
 }
 
 
-.brainstormconclusion img{
 
-    width: 90%;
-    margin-left: 2%; 
-    margin-top: 5%;
+.function-text p {
+
+
+    color: #838181;
+    font-family: "raleway-bold";
+    font-size: 16px;
+    line-height: 28px; 
+    letter-spacing: .5px;
 
 }
+
 
 
 .wp {
