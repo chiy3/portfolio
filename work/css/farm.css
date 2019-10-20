@@ -312,8 +312,9 @@ header.dark nav ul li a:hover{
     font-size: 16px;
     line-height: 28px; 
     letter-spacing: .5px;
-    width: 66%;
-    margin: auto;
+    width: 60%;
+    margin-left: 20%;
+
 }
 
 
@@ -333,10 +334,11 @@ header.dark nav ul li a:hover{
     float: left;
     margin-right:2%;
     text-align: center;
+    margin-top: 5%;
 }
 
 .intro ul li:first-child{
-    margin-left: 15%;
+    margin-left: 17%;
 }
 
 
@@ -355,6 +357,7 @@ header.dark nav ul li a:hover{
     line-height: 28px; 
     margin-top: 10%;
     letter-spacing: .5px;
+    margin-left: 3%;
 
 }
 

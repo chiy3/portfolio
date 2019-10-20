@@ -20,7 +20,7 @@ img {
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 651px) {
  
 /* No Touch devices */
 .cd-nav-trigger {
@@ -238,7 +238,7 @@ img {
   border-bottom: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 651px) {
   .touch .cd-nav-trigger, .touch #cd-vertical-nav {
     bottom: 40px;
   }
