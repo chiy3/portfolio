@@ -348,7 +348,8 @@ header.dark nav ul li a:hover{
 embed {
 
     margin-top: 5%;
-    margin-left:-15%; 
+    width: 100%;
+    max-width: 1440px;
 }
 
 
@@ -798,7 +799,7 @@ header.dark nav ul li a:hover{
     line-height: 28px; 
     letter-spacing: .5px;
     width: 80%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 
@@ -816,10 +817,14 @@ header.dark nav ul li a:hover{
 .intro ul li{
     list-style: none;
     display: block;
-    width: 300px;
+    width: 21%;
     float: left;
-    margin-left: 12%;
+    margin-right:5%;
     text-align: center;
+}
+
+.intro ul li:first-child{
+    margin-left: 13%;
 }
 
 
@@ -829,7 +834,7 @@ header.dark nav ul li a:hover{
     font-family: "raleway-bold";
     font-size: 18px;
     font-weight: bold;
-    margin-top: 3%;
+    margin-top: 30%;
 }
 
 .intro ul li p{
@@ -837,17 +842,20 @@ header.dark nav ul li a:hover{
     font-family: "raleway-regular";
     font-size: 14px;
     line-height: 28px; 
-    margin-top: 4%;
+    margin-top: 10%;
     letter-spacing: .5px;
 
+
 }
+
+
 
 
 embed {
 
     margin-top: 5%;
    
-    width: 120%;
+    width: 100%;
 }
 
 
