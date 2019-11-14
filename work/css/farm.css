@@ -855,15 +855,15 @@ background-color: #ffffff;
 
 
 
-.pp h2 {
+.pp h1 {
 
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     padding-top: 8%;
-    text-align: left;
-    margin-left: 17%;
+    text-align: center;
+
 
 
 }
@@ -877,7 +877,7 @@ background-color: #ffffff;
     line-height: 28px; 
     letter-spacing: .5px;
     margin-left: 17%;
-    width: 500px;
+    width: 66%;
     margin-top: 3%;
     float: left;
     margin-bottom: 3%;
@@ -888,10 +888,9 @@ background-color: #ffffff;
 .pp img {
 
     display: block;
-    float: left;
     width:30%;
-    margin-left: 3%;
-    margin-top:5%;
+    margin-left: 35%;
+    margin-bottom: 3%;
 
 
 }
@@ -1873,15 +1872,14 @@ background-color: #ffffff;
 
 
 
-.pp h2 {
+.pp h1 {
 
     color: #616161;
     font-family: "raleway-bold";
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 8%;
-    text-align: left;
-    margin-left: 3%;
+    text-align: center;
 
 }
 
