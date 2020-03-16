@@ -411,6 +411,7 @@ footer .rights p a{
 
 body{
     background: #fff;
+    margin: 0;
 }
 
 .wrapper{
@@ -424,7 +425,7 @@ h1, h2, h3, h4, h5 ,h6{
     letter-spacing: 1px;
 }
 
-h1              { font-size: 2em; margin: .67em 0 }
+h1              { font-size: 2em;}
 h2              { font-size: 1.5em; margin: .75em 0 }
 h3              { font-size: 1.17em; margin: .83em 0 }
 h5              { font-size: .83em; margin: 1.5em 0 }
@@ -533,9 +534,9 @@ h5, h6          { font-weight: bolder }
 
 .billboard .caption h1{
     font-family: "raleway-bold";
-    font-size: 30px;
     font-weight: bold; 
     margin-bottom: 30px;
+
 }
 
 .billboard .caption.light h1{
