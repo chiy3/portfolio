@@ -37,13 +37,14 @@
 
 }
 
-@media screen and (min-width:650px){
+@media screen and (min-width:651px){
 
 
 /*  General CSS*/
 body{
     background: #fff;
     max-width: 1440px;
+    width: 100%;
 }
 
 .wrapper{
