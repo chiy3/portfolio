@@ -292,7 +292,7 @@ header.dark nav ul li a:hover{
     letter-spacing: .5px;
     width: 60%;
     margin-left: 20%;
-    text-align: center;
+   
 
 }
 
@@ -304,8 +304,19 @@ header.dark nav ul li a:hover{
     margin-top: 3%;
 }
 
+ 
 
+.title {
+      color: #838181;
+    font-family: "raleway-bold";
+    font-size: 24px;
+    line-height: 28px; 
+    letter-spacing: .5px;
+    width: 60%;
+    margin-left: 20%;
+   
 
+}
 
 
 
