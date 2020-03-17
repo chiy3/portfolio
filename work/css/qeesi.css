@@ -132,7 +132,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.light{
-    background: url('../img/or.jpg') no-repeat;   
+    background: url('../img/') no-repeat;   
      
     background-size: cover;
     -webkit-background-size: cover;
@@ -141,7 +141,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.dark{
-    background: url('../img/collection-bg.jpg') no-repeat;
+    background: url('../img/qeesi.png') no-repeat;
     
     background-size: cover;
     -webkit-background-size: cover;
@@ -309,7 +309,7 @@ header.dark nav ul li a:hover{
 .title {
       color: #838181;
     font-family: "raleway-bold";
-    font-size: 16px;
+    font-size: 24px;
     line-height: 28px; 
     letter-spacing: .5px;
     width: 60%;
