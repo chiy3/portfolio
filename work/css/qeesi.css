@@ -141,7 +141,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.dark{
-    background: url('../img/qeesi.png') no-repeat;
+    background: url('../img/qeesi.jpg') no-repeat;
     
     background-size: cover;
     -webkit-background-size: cover;
