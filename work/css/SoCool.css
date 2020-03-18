@@ -283,8 +283,6 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-
-    text-align: center;
     background-color: #fff; 
 
     
@@ -296,6 +294,7 @@ header.dark nav ul li a:hover{
     font-size: 30px;
     font-weight: bold;
     padding-top: 3%;
+    text-align: center;
    
 }
 
@@ -982,7 +981,7 @@ header.dark nav ul li a:hover{
 
     display: block;
     width: 100%;
-    text-align: center;
+ 
     background-color: #fff; 
 
     
@@ -994,6 +993,7 @@ header.dark nav ul li a:hover{
     font-size: 20px;
     font-weight: bold;
     padding-top: 3%;
+    text-align: center;
    
 }
 
