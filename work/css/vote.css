@@ -509,38 +509,7 @@ embed {
     
     
 
-   
-
-
-/*    footer    */
-footer{
-    display: block;
-    padding: 35px 0;
-    overflow: hidden;
-    
-}
-
-footer .footer_logo{
-    float: left;
-
-}
-
-footer .rights p{
-   
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 13px;
-    margin: auto; 
-    text-align: right;
-}
-
-footer .rights p a{
-    color: #777;
-    font-family: "raleway-semibold";
-    font-size: 13px;
-    font-weight: bold;
-    text-decoration: none;
-}
+ 
 }
 
 @media screen and (max-width:650px){
@@ -1015,38 +984,5 @@ embed {
     
     
     
-
-   
-
-
-/*    footer    */
-footer{
-    display: block;
-    padding: 35px 0;
-    overflow: hidden;
-    
-}
-
-footer .footer_logo{
-    float: left;
-
-}
-
-footer .rights p{
-   
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 13px;
-    margin: auto; 
-    text-align: right;
-}
-
-footer .rights p a{
-    color: #777;
-    font-family: "raleway-semibold";
-    font-size: 13px;
-    font-weight: bold;
-    text-decoration: none;
-}
 }
 

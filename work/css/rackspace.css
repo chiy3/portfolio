@@ -320,34 +320,6 @@ header.dark nav ul li a:hover{
 
 
 
-/*    footer    */
-footer{
-    display: block;
-    padding: 35px 0;
-    overflow: hidden;
-    
-}
-
-
-footer .rights p{
-   
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 13px;
-    margin: auto; 
-    text-align: right;
-}
-
-footer .rights p a{
-    color: #777;
-    font-family: "raleway-semibold";
-    font-size: 13px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-
-
 
 
 
