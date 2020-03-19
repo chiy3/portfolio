@@ -367,6 +367,9 @@ header.dark nav ul li a:hover{
 }
 
 
+
+
+
 }
 
 
@@ -707,8 +710,72 @@ header.dark nav ul li a:hover{
 }
 
 
+}
 
 
+.footer p {
+
+    color: #000000;
+    font-size: 30px;
+    line-height: 28px; 
+    letter-spacing: .5px;
+ 
+   
+    font-family: "Quicksand", Arial, sans-serif;
+   
 
 }
-*/
+
+.footer ul {
+
+  display: inline-grid;
+  grid-auto-flow: row;
+  grid-gap: 24px;
+  justify-content: center;
+
+  list-style-type:none;
+ 
+}
+
+
+ .footer ul {
+    grid-auto-flow: column;
+  }
+
+
+.footer a {
+  color: black;
+  
+  box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
+
+.footer a:hover {
+  box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+}
+
+.footer li:last-child {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.footer li:hover ~ li p {
+  animation: wave-animation 0.3s infinite;
+}
+
+
+
+@keyframes wave-animation {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+}
+
+
+
