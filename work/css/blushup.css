@@ -134,7 +134,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.light{
-    background: url('../img/billboard.jpg') no-repeat;   
+    background: url('../img/blushup.jpg') no-repeat;   
      
     background-size: cover;
     -webkit-background-size: cover;
@@ -143,7 +143,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.dark{
-    background: url('../img/blushup.jpg') no-repeat;
+    background: url('../img/') no-repeat;
     
     background-size: cover;
     -webkit-background-size: cover;
@@ -499,7 +499,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.light{
-    background: url('../img/billboard.jpg') no-repeat;   
+    background: url('../img/blushup.jpg') no-repeat;   
      
     background-size: cover;
     -webkit-background-size: cover;
@@ -508,7 +508,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.dark{
-    background: url('../img/blushup.jpg') no-repeat;
+    background: url('../img/') no-repeat;
     
     background-size: cover;
     -webkit-background-size: cover;
