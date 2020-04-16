@@ -318,6 +318,15 @@ header.dark nav ul li a:hover{
 
 }
 
+.problem-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+}
+
+strong {
+    font-family: "raleway-bold";
+}
 
 
 .footer p {
