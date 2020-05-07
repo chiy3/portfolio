@@ -89,9 +89,9 @@ Main Components
 }
 
 .analytics-text {
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.5;
-  margin-bottom: 5%;
+ 
 
 }
 
@@ -103,11 +103,13 @@ Main Components
 
 .proposal-text {
   font-size: 2.5rem;
+  line-height: 1.5;
 
 }
 
 .stage1-text {
   font-size: 2.5rem;
+  line-height: 1.5
 }
 
 .last-text {
@@ -136,7 +138,7 @@ Main Components
   font-weight: bold;
   font-size: 1.3rem;
   text-transform: uppercase;
-  color: #6a7083;
+  color: #FFFFFF;
 }
 .cd-section:nth-of-type(2) > div {
   background-color: #22283f;
