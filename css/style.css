@@ -21,6 +21,12 @@ body {
       font-size: 16px; } }
 
 
+.contact-text{
+  font-family: "Baloo 2", Arial, sans-serif;
+  margin-top: 40px;
+}
+
+
 .aboutme p {
 
   font-family: "Baloo 2", Arial, sans-serif;
