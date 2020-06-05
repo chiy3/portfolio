@@ -126,8 +126,8 @@ h5, h6          { font-weight: bolder }
 
 /*    Billboard    */
 .billboard{
-    width: 80%;
-    margin-left: 10%;
+    width: 81%;
+    margin-left: 9.5%;
     height: 400px;
     position: relative;
 }
