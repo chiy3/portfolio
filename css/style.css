@@ -49,10 +49,18 @@ body {
   text-decoration: underline;
   display: inline-block;
   position: relative;
-
+   color: #2c98f0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 
 }
 
+
+.aboutme a:hover, a:active, a:focus {
+    color: #0059a1;
+    outline: none;
+    text-decoration: none !important; }
 
 
 
