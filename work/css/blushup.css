@@ -1,42 +1,7 @@
 
 
 /*  Fonts  */
-@font-face {
-    font-family: 'raleway-regular';
-    src: url('../fonts/raleway-regular.eot');
-    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-regular.woff') format('woff'),
-         url('../fonts/raleway-regular.ttf') format('truetype'),
-         url('../fonts/raleway-regular.svg#raleway-regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'raleway-semibold';
-    src: url('../fonts/raleway-semibold.eot');
-    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-semibold.woff') format('woff'),
-         url('../fonts/raleway-semibold.ttf') format('truetype'),
-         url('../fonts/raleway-semibold.svg#raleway-semibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'raleway-bold';
-    src: url('../fonts/raleway-bold.eot');
-    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-bold.woff') format('woff'),
-         url('../fonts/raleway-bold.ttf') format('truetype'),
-         url('../fonts/raleway-bold.svg#raleway-bold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 
 /*  General CSS*/
@@ -52,8 +17,8 @@ body{
 }
 
 h1, h2, h3, h4, h5 ,h6{
-    color: #626262;
-    font-family: "raleway-regular", arial;
+
+    font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -166,9 +131,9 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption h1{
-    font-family: "raleway-bold";
+    font-family: 'Lato', sans-serif;
     font-size: 50px;
-    font-weight: medium; 
+    font-weight: 700; 
     margin-bottom: 30px;
 }
 
@@ -181,7 +146,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption p{
-    font-family: "raleway-regular";
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     margin-bottom: 30px;
 }
@@ -229,58 +194,13 @@ header .logo{
 }
 
 
-header nav{
-    float: right;
-    margin-top: 57px;
-}
-
-
-header nav ul li{
-    list-style: none;
-    display: block;
-    float: left;
-    margin-left: 50px;
-}
-
-header nav ul li a{
-    text-decoration: none;  
-    font-family: "raleway-regular";
-    font-size: 14px;
-
-    transition:all .2s linear;
-    -webkit-transition:all .2s linear;
-    -moz-transition:all .2s linear;
-    -o-transition:all .2s linear;
-}
-
-header.light nav ul li a{  
-    color: #fff;
-}
-
-header.light nav ul li a:hover{
-    color: #B9B9B9;
-}
-
-header.dark nav ul li a{  
-    color: #5d5d5d;
-}
-
-header.dark nav ul li a:hover{
-    color: #919191;
-}
-
-.main-content {
-
-}
-
-
 
 .main-content h2{
 
-    color: #616161;
-    font-family: "raleway-bold";
+
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     padding-top: 3%;
     margin-left: 20%;
     width: 60%;
@@ -292,9 +212,10 @@ header.dark nav ul li a:hover{
  p
 
  {
-    color: #838181;
-    font-family: "raleway-regular";
-    font-size: 16px;
+   
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
     line-height: 28px; 
     letter-spacing: .5px;
     width: 60%;
@@ -305,18 +226,19 @@ header.dark nav ul li a:hover{
 
 .role {
 
-    color: #616161;
-    font-family: "raleway-bold";
-    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
     margin-top: 3%;
 }
 
  
 
 .title {
-      color: #838181;
-    font-family: "raleway-bold";
-    font-size: 24px;
+  
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
     line-height: 28px; 
     letter-spacing: .5px;
     width: 60%;
@@ -331,7 +253,6 @@ header.dark nav ul li a:hover{
 
 .footer p {
 
-    color: #000000;
     font-size: 30px;
     line-height: 28px; 
     letter-spacing: .5px;
@@ -421,9 +342,9 @@ header .logo{
 }
 
 .billboard .caption h1{
-    font-family: "raleway-bold";
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
-    font-weight: bold; 
+    font-weight: 700; 
     margin-bottom: 30px;
 }
 
