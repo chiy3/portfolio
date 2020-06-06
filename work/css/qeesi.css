@@ -278,7 +278,9 @@ header.dark nav ul li a:hover{
     font-size: 30px;
     font-weight: bold;
     padding-top: 3%;
-    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+  
 
    
 }

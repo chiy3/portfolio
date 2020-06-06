@@ -269,6 +269,10 @@ header.dark nav ul li a:hover{
     color: #919191;
 }
 
+.main-content {
+
+}
+
 
 
 .main-content h2{
@@ -278,7 +282,9 @@ header.dark nav ul li a:hover{
     font-size: 30px;
     font-weight: bold;
     padding-top: 3%;
-    text-align: center;
+    margin-left: 20%;
+    width: 60%;
+   
 
    
 }

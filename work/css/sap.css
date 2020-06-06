@@ -269,6 +269,10 @@ header.dark nav ul li a:hover{
     color: #919191;
 }
 
+.main-content {
+    width: 60%;
+    margin-left: 20%;
+}
 
 
 .main-content h2{
@@ -278,7 +282,7 @@ header.dark nav ul li a:hover{
     font-size: 30px;
     font-weight: bold;
     padding-top: 3%;
-    text-align: center;
+   
 
    
 }
@@ -291,33 +295,19 @@ header.dark nav ul li a:hover{
     font-size: 16px;
     line-height: 28px; 
     letter-spacing: .5px;
-    width: 60%;
-    margin-left: 20%;
+  
    
 
 }
 
-.role {
-
-    color: #616161;
-    font-family: "raleway-bold";
+.challenge {
     font-size: 20px;
-    margin-top: 3%;
-}
+    font-family: "raleway-bold";
+    color: #007db8;
 
+}
  
 
-.title {
-      color: #838181;
-    font-family: "raleway-bold";
-    font-size: 16px;
-    line-height: 28px; 
-    letter-spacing: .5px;
-    width: 60%;
-    margin-left: 20%;
-   
-
-}
 
 
 
@@ -327,8 +317,6 @@ header.dark nav ul li a:hover{
     font-size: 30px;
     line-height: 28px; 
     letter-spacing: .5px;
-    width: 60%;
-   
     font-family: "Quicksand", Arial, sans-serif;
    
 
