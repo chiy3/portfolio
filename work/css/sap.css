@@ -233,6 +233,10 @@ header nav{
 
 }
 
+strong {
+    font-weight: 700;
+}
+
 .challenge {
     font-size: 20px;
     font-family: 'Lato', sans-serif;
