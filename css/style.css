@@ -163,9 +163,10 @@ figure {
       transform: translateX(-300px);
       padding-top: 4em; } }
   #colorlib-aside .author-img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin: 0 auto;
+    margin-top: 60px;
     margin-bottom: 30px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -256,6 +257,7 @@ figure {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
+    margin-top: 60px;
     font-size: 15px;
     text-align: center;
     font-weight: 400;

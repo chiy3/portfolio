@@ -190,7 +190,9 @@ header{
 
 header .logo{
     float: left;
-    width:12%;
+    width:60px;
+    margin-top: 10px;
+    margin-left: 10px;
     
 }
 
@@ -333,11 +335,9 @@ strong {
 
 
 header .logo{
-
+    
     float:left;
-    margin-left: -15px;
-    width: 25%;
-    margin-bottom: 5%;
+    width: 50px;
 }
 
 .billboard .caption h1{
