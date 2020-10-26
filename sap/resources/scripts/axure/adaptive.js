@@ -603,15 +603,60 @@
     $ax.adaptive.isDeviceMode = function () {
         return _isDeviceMode;
     }
+
+    var _isHtmlQuery = function ($container) { return $container.length > 0 && $container[0] == $('html')[0]; }
     
     var _removeNiceScroll = $ax.adaptive.removeNiceScroll = function ($container, blockResetScroll) {
         if (!blockResetScroll) {
             $container.scrollLeft(0);
             $container.scrollTop(0);
         }
-        $container.getNiceScroll().remove();
+        var nS = $container.getNiceScroll();
+        var emulateTouch = nS.length > 0 && nS[0].opt.emulateTouch;
+        nS.remove();
         //clean up nicescroll css
         if (IE) $container.css({ '-ms-overflow-y': '', 'overflow-y': '', '-ms-overflow-style': '', '-ms-touch-action': '' });
+        if (!emulateTouch) return; 
+        if (_isHtmlQuery($container)) {
+            $('#scrollContainer').remove();
+            $('#base').off('mouseleave.ax');
+        } else {
+            $container.off('mouseleave.ax');
+        }
+    }
+
+    var _addNiceScrollExitDetector = function ($container) {
+        if (_isHtmlQuery($container)) {
+
+            // add a fixed div the size of the frame that will not move as we scroll like html,body,#base,children
+            // so we are able to detect when the mouse leaves that frame area if there is no existing DOM element
+            var $scrollContainer = $("<div id='scrollContainer'></div>");
+            var $body = $('body');
+            $scrollContainer.css({
+                'position': 'fixed',
+                'width': $body.width(),
+                'height': $body.height()
+            });
+
+            // we want #base div to handle the event so that it bubbles up from the scrollContainer div which
+            // handles the bounds of the frame in case there was no previously exisiting child to bubble up the
+            // event or if the user has clicked on an existing child node to start the emulated touch scroll
+            var $base = $('#base');
+            $base.on('mouseleave.ax', function (e) {
+                var nS = $container.getNiceScroll();
+                for (var i = 0; i < nS.length; ++i)
+                    nS[i].ontouchend(e);
+            });
+            // need to prepend so it is first child in DOM and doesn't block mouse events to other children which
+            // would make them unable to scroll
+            $base.prepend($scrollContainer);
+        } else {
+            $container.on('mouseleave.ax', function (e) {
+                var nS = $container.getNiceScroll();
+                for (var i = 0; i < nS.length; ++i)
+                    nS[i].ontouchend(e);
+            });
+        }
     }
 
     var _addNiceScroll = $ax.adaptive.addNiceScroll = function ($container, options, blockResetScroll) {
@@ -620,6 +665,8 @@
             $container.scrollTop(0);
         }
         $container.niceScroll(options);
+        // RP-581 add handling to stop scroll on mouse leave if enable cursor-drag scrolling like touch devices in desktop computer
+        if (options.emulatetouch) _addNiceScrollExitDetector($container);
         //clean up nicescroll css so child scroll containers show scrollbars in IE
         if (IE) $container.css({ '-ms-overflow-y': '', '-ms-overflow-style': '' });
         if(IOS) $container.css({ 'overflow-y': ''});
