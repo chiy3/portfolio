@@ -38,28 +38,8 @@ body {
 }
 
 
-.aboutme a{
-
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 23px;
-  line-height: 1.8;
-  color: rgba(0, 0, 0, 0.7);
-  text-decoration: underline;
-  display: inline-block;
-  position: relative;
-   color: #2c98f0;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-
-}
 
 
-.aboutme a:hover, a:active, a:focus {
-    color: #0059a1;
-    outline: none;
-    text-decoration: none !important; }
 
 
 
