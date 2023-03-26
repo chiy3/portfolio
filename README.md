@@ -1,3 +1,3 @@
 # portfolio
 
-Nothing but Eric's portfolio. Check https://ycchi.com to learn more about me.
+Nothing but Eric's portfolio. Check https://www.linkedin.com/in/ycchi/ to learn more about me.
