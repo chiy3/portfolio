@@ -84,8 +84,8 @@ h1, h2, h3 { font-weight: 600; letter-spacing: -0.022em; line-height: 1.08; marg
   overflow: hidden;
   background: linear-gradient(180deg, #e4edf3 0%, var(--bg) 60%);
 }
-.town, .room { position: absolute; inset: 0; width: 100%; height: 100%; }
-.room { opacity: 0; visibility: hidden; font-family: var(--sans); }
+.scene { position: absolute; inset: 0; width: 100%; height: 100%; font-family: var(--sans); }
+.scene:not(.town) { opacity: 0; visibility: hidden; }
 .room .screen { opacity: 0; transition: opacity .5s ease; }
 .room .screen.on { opacity: 1; }
 .stop .note { display: block; margin-top: .9rem; font-size: .75rem; color: var(--mute); }
@@ -262,6 +262,7 @@ h1, h2, h3 { font-weight: 600; letter-spacing: -0.022em; line-height: 1.08; marg
   .tour { height: auto !important; }
   .stage { position: relative; top: 0; height: auto; overflow: visible; padding-bottom: 2rem; }
   .town, .room { position: relative; height: 60vh; opacity: 1; visibility: visible; }
+  .facade, .aisle { display: none; }
   .stop, .stop.hero { position: relative; left: auto; right: auto; top: auto; bottom: auto; transform: none !important; opacity: 1; width: auto; max-width: var(--max); margin: 1rem auto; }
   .stop.hero { margin-top: 3rem; }
   .stop p.desc { display: block; }

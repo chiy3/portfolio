@@ -28,7 +28,7 @@ Each case study has grey image slots. To fill one:
 - Home copy and the work list: `index.html`. Each project row has a title, one line, and a headline figure.
 - Case-study text: `work/<project>.html`. Sections are Overview, Challenge, Solution, Impact.
 - Colors and fonts: the `:root` block at the top of `assets/css/site.css`.
-- The map tour: the town is an inline SVG in `index.html`; the customer service desk (with one illustrated screen per Walmart project) is the second inline SVG; camera stops, route, pins and screen swaps are driven by `assets/js/site.js` (`TOUR_FOCUS` in the page head holds each stop's framing). Visitors with reduced motion turned on get a still map and a list of stops.
+- The map tour: the town is an inline SVG in `index.html`; the storefront, main aisle and customer service desk (one illustrated screen per Walmart project) are the other inline SVGs; `TOUR_KEYS` lists the keyframes, including the card-less walk-in frames; camera stops, route, pins and screen swaps are driven by `assets/js/site.js` (`TOUR_FOCUS` in the page head holds each stop's framing). Visitors with reduced motion turned on get a still map and a list of stops.
 - The page generator lives outside this repo; edit the HTML directly.
 
 ## Preview locally
