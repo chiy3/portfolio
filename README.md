@@ -1,6 +1,6 @@
 # Eric Chi — portfolio
 
-Staff UX Designer at Walmart. Live at https://chiy3.github.io/portfolio/
+Staff UX Designer at Walmart. Live at https://eric-chi.com
 
 Plain HTML and CSS with no build step. GitHub Pages serves the files as they are.
 
@@ -39,4 +39,4 @@ Then open http://localhost:8000.
 
 ## Publishing
 
-Settings → Pages → Build and deployment → Source: "Deploy from a branch", branch `master`, folder `/ (root)`.
+Settings → Pages → Source: "Deploy from a branch", branch `master`, folder `/ (root)`. Custom domain: eric-chi.com (set by the `CNAME` file; DNS is at Porkbun).
