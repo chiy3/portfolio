@@ -107,8 +107,8 @@
   const track = town && town.querySelector(".route-track");
   const trackLen = track ? track.getTotalLength() : 0;
   const ISO = [[0.866, 0.5], [-0.866, 0.5], [0.866, -0.5], [-0.866, -0.5]];
-  const ACTS = ["hi", "design", "cat", "hi", "design", "cat", null];
-  const idle = { ax: 0, ay: 0, ox: 0, oy: 0, tx: 0, ty: 0, state: "rest", until: 0, lastAct: null, scrolledAt: 0 };
+  const ACTS = ["hi", "design", "cat"];
+  const idle = { ax: 0, ay: 0, ox: 0, oy: 0, tx: 0, ty: 0, state: "rest", until: 0, lastAct: null, scrolledAt: 0, cooldown: 1 };
   let lastRp = -1, facing = -1, walkTimer = null;
 
   function moveAvatar(rp) {
@@ -152,12 +152,18 @@
       if (dist <= step) {
         idle.ox = idle.tx; idle.oy = idle.ty;
         me.classList.remove("walking");
-        let act = ACTS[Math.floor(Math.random() * ACTS.length)];
-        if (act === idle.lastAct) act = ACTS[(ACTS.indexOf(act) + 1) % 3];
-        idle.lastAct = act;
+        // After an act, take one or two plain strolls before the next one.
+        let act = null;
+        if (idle.cooldown > 0) idle.cooldown--;
+        else {
+          act = ACTS[Math.floor(Math.random() * 3)];
+          if (act === idle.lastAct) act = ACTS[(ACTS.indexOf(act) + 1) % 3];
+          idle.lastAct = act;
+          idle.cooldown = 1 + Math.floor(Math.random() * 2);
+        }
         setAct(act);
         idle.state = act ? "act" : "rest";
-        idle.until = t + (act ? 2600 + Math.random() * 1400 : 900 + Math.random() * 900);
+        idle.until = t + (act ? 3000 + Math.random() * 1500 : 2500 + Math.random() * 2500);
       } else {
         idle.ox += dx / dist * step; idle.oy += dy / dist * step;
         if (Math.abs(dx) > 0.05) facing = dx < 0 ? -1 : 1;

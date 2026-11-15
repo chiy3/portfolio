@@ -112,7 +112,7 @@ h1, h2, h3 { font-weight: 600; letter-spacing: -0.022em; line-height: 1.08; marg
 .town .me[data-act="design"] .act-design,
 .town .me[data-act="cat"] .act-cat { opacity: 1; }
 .town .me[data-act="hi"] .arm-f { transform-origin: 50% 8%; animation: wave .38s ease-in-out infinite alternate; }
-@keyframes wave { from { transform: rotate(-150deg); } to { transform: rotate(-185deg); } }
+@keyframes wave { from { transform: rotate(-118deg); } to { transform: rotate(-146deg); } }
 .town .me[data-act="design"] .arm-f, .town .me[data-act="design"] .arm-b { animation: type .22s ease-in-out infinite alternate; }
 @keyframes type { from { transform: rotate(-58deg); } to { transform: rotate(-66deg); } }
 .town .me[data-act="design"] .glow { animation: glow 1.2s ease-in-out infinite alternate; }
