@@ -99,6 +99,27 @@
     }
   }
 
+  // Eric's avatar walks the route in step with the scroll.
+  const me = town && town.querySelector(".me");
+  const flip = me && me.querySelector(".me-flip");
+  const track = town && town.querySelector(".route-track");
+  const trackLen = track ? track.getTotalLength() : 0;
+  let lastRp = -1, walkTimer = null, facing = -1;
+  function moveAvatar(rp) {
+    if (!me || !trackLen) return;
+    const at = track.getPointAtLength(rp * trackLen);
+    const ahead = track.getPointAtLength(Math.min(trackLen, rp * trackLen + 2));
+    me.setAttribute("transform", `translate(${at.x.toFixed(1)},${at.y.toFixed(1)})`);
+    if (Math.abs(ahead.x - at.x) > 0.2) facing = ahead.x < at.x ? -1 : 1;
+    flip.setAttribute("transform", `scale(${facing},1)`);
+    if (Math.abs(rp - lastRp) > 0.0004 && lastRp >= 0) {
+      me.classList.add("walking");
+      clearTimeout(walkTimer);
+      walkTimer = setTimeout(() => me.classList.remove("walking"), 180);
+    }
+    lastRp = rp;
+  }
+
   function updateTour() {
     if (!tour || !town || reduce || !KEYS.length) return;
     const W = town.clientWidth, H = town.clientHeight;
@@ -135,7 +156,9 @@
     setCard(KEYS[nearest].card, nearest);
     const firstRoute = KEYS.findIndex(k => k.focus === "cisco");
     const at = i + f;
-    if (route) route.style.strokeDasharray = `${clamp((at - (firstRoute - 1)) / 2, 0, 1).toFixed(3)} 1`;
+    const rp = clamp((at - (firstRoute - 1)) / 2, 0, 1);
+    if (route) route.style.strokeDasharray = `${rp.toFixed(3)} 1`;
+    moveAvatar(rp);
   }
 
   if (tour && !reduce && KEYS.length) {
