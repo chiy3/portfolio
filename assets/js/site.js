@@ -181,6 +181,8 @@
     }
   }
   if (me && !reduce) requestAnimationFrame(idleLoop);
+  // Traffic and cloud shadows are SVG animations; hold them still for reduced motion.
+  if (town && reduce && town.pauseAnimations) town.pauseAnimations();
 
   function updateTour() {
     if (!tour || !town || reduce || !KEYS.length) return;
