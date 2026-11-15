@@ -238,31 +238,6 @@
     if (screens[0]) screens[0].classList.add("on");
   }
 
-  /* ---------- Press-and-hold lens ---------- */
-  const lens = document.querySelector(".lens");
-  if (lens) {
-    const say = document.querySelector(".panel .say");
-    const items = [...document.querySelectorAll(".views li")];
-    let idx = 0, timer = null;
-    const show = i => {
-      idx = (i + items.length) % items.length;
-      say.classList.add("swap");
-      setTimeout(() => { say.textContent = items[idx].dataset.say; say.classList.remove("swap"); }, reduce ? 0 : 260);
-      items.forEach((li, j) => li.classList.toggle("on", j === idx));
-      lens.setAttribute("aria-label", `Showing the ${items[idx].textContent.trim().toLowerCase()} view. Activate to switch.`);
-    };
-    const start = e => {
-      if (e.button !== 0) return;
-      lens.classList.add("held"); clearInterval(timer);
-      show(idx + 1); timer = setInterval(() => show(idx + 1), 1400);
-    };
-    const stop = () => { lens.classList.remove("held"); clearInterval(timer); };
-    lens.addEventListener("pointerdown", start);
-    ["pointerup", "pointerleave", "pointercancel"].forEach(t => lens.addEventListener(t, stop));
-    lens.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); show(idx + 1); } });
-    lens.addEventListener("contextmenu", e => e.preventDefault());
-  }
-
   /* ---------- Loop ---------- */
   let ticking = false;
   const frame = () => { updateTour(); updateChapters(); ticking = false; };

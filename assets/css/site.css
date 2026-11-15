@@ -209,31 +209,6 @@ h1, h2, h3 { font-weight: 600; letter-spacing: -0.022em; line-height: 1.08; marg
 .earlier .e-fig { color: var(--mute); font-size: var(--small); text-align: right; }
 .earlier .e-fig b { color: var(--ink); font-size: 1.125rem; letter-spacing: -0.02em; }
 
-/* Gradient panel with the press-and-hold lens */
-.panel {
-  margin: 0 clamp(.6rem, 1.5vw, 1.25rem); border-radius: var(--radius);
-  min-height: 100vh; min-height: 100svh; display: grid; place-items: center; text-align: center;
-  padding: 6rem var(--gutter) 4rem; color: #fff; position: relative; overflow: hidden;
-  background: linear-gradient(180deg, var(--sky) 0%, #a9c3d3 45%, var(--haze) 100%);
-  scroll-margin-top: 52px;
-}
-.panel h2 { font-size: var(--h1); max-width: 18ch; margin: 0 auto; }
-.panel .say { font-size: var(--lead); line-height: 1.4; max-width: 34ch; margin: 1.5rem auto 0; min-height: 5.6em; transition: opacity .35s ease; }
-.panel .say.swap { opacity: 0; }
-.lens {
-  margin: 2rem auto 0; width: clamp(9rem, 20vw, 12rem); aspect-ratio: 1; border-radius: 50%;
-  border: 1px solid rgba(255,255,255,.6); color: #fff; font: inherit; font-size: var(--small); font-weight: 600;
-  background: radial-gradient(circle at 35% 30%, rgba(255,255,255,.4), rgba(255,255,255,.07) 60%);
-  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
-  cursor: pointer; display: grid; place-items: center; padding: 1.5rem; line-height: 1.35;
-  transition: transform .5s cubic-bezier(.2,.8,.2,1);
-  touch-action: manipulation; -webkit-user-select: none; user-select: none;
-}
-.lens.held { transform: scale(.9); }
-.views { display: flex; justify-content: center; gap: 1.5rem; list-style: none; margin: 1.75rem 0 0; padding: 0; font-size: var(--small); font-weight: 600; }
-.views li { color: rgba(255,255,255,.55); transition: color .3s; }
-.views li.on { color: #fff; }
-
 /* About */
 .about { display: grid; grid-template-columns: auto 1fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: start; background: var(--tile); border-radius: var(--radius); padding: clamp(2rem, 5vw, 3.5rem); }
 .about .portrait { width: clamp(5rem, 10vw, 7.5rem); border-radius: 50%; background: var(--bg); }
