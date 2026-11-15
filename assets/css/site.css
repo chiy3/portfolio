@@ -84,7 +84,11 @@ h1, h2, h3 { font-weight: 600; letter-spacing: -0.022em; line-height: 1.08; marg
   overflow: hidden;
   background: linear-gradient(180deg, #e4edf3 0%, var(--bg) 60%);
 }
-.town { position: absolute; inset: 0; width: 100%; height: 100%; }
+.town, .room { position: absolute; inset: 0; width: 100%; height: 100%; }
+.room { opacity: 0; visibility: hidden; font-family: var(--sans); }
+.room .screen { opacity: 0; transition: opacity .5s ease; }
+.room .screen.on { opacity: 1; }
+.stop .note { display: block; margin-top: .9rem; font-size: .75rem; color: var(--mute); }
 .town .sign { font-family: var(--sans); letter-spacing: 0; }
 .town .route-base { fill: none; stroke: #1d1d1f; stroke-opacity: .22; stroke-width: 2; stroke-dasharray: 4 5; }
 .town .route { fill: none; stroke: var(--blue); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 0 1; }
@@ -257,7 +261,7 @@ h1, h2, h3 { font-weight: 600; letter-spacing: -0.022em; line-height: 1.08; marg
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .tour { height: auto !important; }
   .stage { position: relative; top: 0; height: auto; overflow: visible; padding-bottom: 2rem; }
-  .town { position: relative; height: 70vh; }
+  .town, .room { position: relative; height: 60vh; opacity: 1; visibility: visible; }
   .stop, .stop.hero { position: relative; left: auto; right: auto; top: auto; bottom: auto; transform: none !important; opacity: 1; width: auto; max-width: var(--max); margin: 1rem auto; }
   .stop.hero { margin-top: 3rem; }
   .stop p.desc { display: block; }
