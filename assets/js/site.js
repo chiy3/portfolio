@@ -99,26 +99,82 @@
     }
   }
 
-  // Eric's avatar walks the route in step with the scroll.
+  // Eric's avatar walks the route in step with the scroll. When the scroll
+  // rests, he wanders a few steps around that spot and stops now and then to
+  // say hi, design something, or play with a cat.
   const me = town && town.querySelector(".me");
   const flip = me && me.querySelector(".me-flip");
   const track = town && town.querySelector(".route-track");
   const trackLen = track ? track.getTotalLength() : 0;
-  let lastRp = -1, walkTimer = null, facing = -1;
+  const ISO = [[0.866, 0.5], [-0.866, 0.5], [0.866, -0.5], [-0.866, -0.5]];
+  const ACTS = ["hi", "design", "cat", "hi", "design", "cat", null];
+  const idle = { ax: 0, ay: 0, ox: 0, oy: 0, tx: 0, ty: 0, state: "rest", until: 0, lastAct: null, scrolledAt: 0 };
+  let lastRp = -1, facing = -1, walkTimer = null;
+
   function moveAvatar(rp) {
     if (!me || !trackLen) return;
     const at = track.getPointAtLength(rp * trackLen);
     const ahead = track.getPointAtLength(Math.min(trackLen, rp * trackLen + 2));
-    me.setAttribute("transform", `translate(${at.x.toFixed(1)},${at.y.toFixed(1)})`);
-    if (Math.abs(ahead.x - at.x) > 0.2) facing = ahead.x < at.x ? -1 : 1;
-    flip.setAttribute("transform", `scale(${facing},1)`);
+    idle.ax = at.x; idle.ay = at.y;
     if (Math.abs(rp - lastRp) > 0.0004 && lastRp >= 0) {
+      if (Math.abs(ahead.x - at.x) > 0.2) facing = ahead.x < at.x ? -1 : 1;
+      idle.scrolledAt = performance.now();
       me.classList.add("walking");
       clearTimeout(walkTimer);
-      walkTimer = setTimeout(() => me.classList.remove("walking"), 180);
+      walkTimer = setTimeout(() => { if (idle.state !== "walk") me.classList.remove("walking"); }, 180);
     }
     lastRp = rp;
+    renderAvatar();
   }
+
+  function renderAvatar() {
+    me.setAttribute("transform", `translate(${(idle.ax + idle.ox).toFixed(2)},${(idle.ay + idle.oy).toFixed(2)})`);
+    flip.setAttribute("transform", `scale(${facing},1)`);
+  }
+
+  function setAct(act) {
+    if (act) me.dataset.act = act; else delete me.dataset.act;
+  }
+
+  let lastT = 0;
+  function idleLoop(t) {
+    requestAnimationFrame(idleLoop);
+    if (!me || document.hidden || town.style.visibility === "hidden") { lastT = t; return; }
+    const dt = Math.min(0.05, (t - lastT) / 1000 || 0); lastT = t;
+    if (t - idle.scrolledAt < 450) {                  // scrolling: drop everything, follow the route
+      idle.ox *= 0.8; idle.oy *= 0.8;
+      if (idle.state !== "rest") { idle.state = "rest"; idle.until = t + 900; setAct(null); }
+      renderAvatar(); return;
+    }
+    if (idle.state === "walk") {
+      const dx = idle.tx - idle.ox, dy = idle.ty - idle.oy, dist = Math.hypot(dx, dy);
+      const step = 7 * dt;                             // slow stroll, in map units per second
+      if (dist <= step) {
+        idle.ox = idle.tx; idle.oy = idle.ty;
+        me.classList.remove("walking");
+        let act = ACTS[Math.floor(Math.random() * ACTS.length)];
+        if (act === idle.lastAct) act = ACTS[(ACTS.indexOf(act) + 1) % 3];
+        idle.lastAct = act;
+        setAct(act);
+        idle.state = act ? "act" : "rest";
+        idle.until = t + (act ? 2600 + Math.random() * 1400 : 900 + Math.random() * 900);
+      } else {
+        idle.ox += dx / dist * step; idle.oy += dy / dist * step;
+        if (Math.abs(dx) > 0.05) facing = dx < 0 ? -1 : 1;
+        me.classList.add("walking");
+      }
+      renderAvatar();
+    } else if (t > idle.until) {                       // pick a nearby spot, along the iso grid
+      setAct(null);
+      const [ux, uy] = ISO[Math.floor(Math.random() * 4)];
+      const len = 4 + Math.random() * 7;
+      let tx = idle.ox + ux * len, ty = idle.oy + uy * len;
+      const r = Math.hypot(tx, ty);
+      if (r > 11) { tx *= 11 / r; ty *= 11 / r; }      // stay close to where the tour left him
+      idle.tx = tx; idle.ty = ty; idle.state = "walk";
+    }
+  }
+  if (me && !reduce) requestAnimationFrame(idleLoop);
 
   function updateTour() {
     if (!tour || !town || reduce || !KEYS.length) return;

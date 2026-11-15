@@ -104,6 +104,26 @@ h1, h2, h3 { font-weight: 600; letter-spacing: -0.022em; line-height: 1.08; marg
 .town .me.walking .me-flip { animation: bob .21s ease-in-out infinite alternate; }
 @keyframes swing { from { transform: rotate(-24deg); } to { transform: rotate(24deg); } }
 @keyframes bob { from { translate: 0 0; } to { translate: 0 -0.8px; } }
+/* Avatar idle acts: data-act = hi | design | cat */
+.town .me .act { opacity: 0; transition: opacity .3s ease; }
+.town .me .me-tag { transition: opacity .3s ease; }
+.town .me[data-act] .me-tag { opacity: 0; }
+.town .me[data-act="hi"] .act-hi,
+.town .me[data-act="design"] .act-design,
+.town .me[data-act="cat"] .act-cat { opacity: 1; }
+.town .me[data-act="hi"] .arm-f { transform-origin: 50% 8%; animation: wave .38s ease-in-out infinite alternate; }
+@keyframes wave { from { transform: rotate(-150deg); } to { transform: rotate(-185deg); } }
+.town .me[data-act="design"] .arm-f, .town .me[data-act="design"] .arm-b { animation: type .22s ease-in-out infinite alternate; }
+@keyframes type { from { transform: rotate(-58deg); } to { transform: rotate(-66deg); } }
+.town .me[data-act="design"] .glow { animation: glow 1.2s ease-in-out infinite alternate; }
+.town .me[data-act="cat"] .me-body > rect, .town .me[data-act="cat"] .me-body > circle, .town .me[data-act="cat"] .me-body > path, .town .me[data-act="cat"] .me-body > line { translate: 0 1.6px; }
+.town .me[data-act="cat"] .arm-f { animation: pet .5s ease-in-out infinite alternate; }
+@keyframes pet { from { transform: rotate(-38deg); } to { transform: rotate(-58deg); } }
+.town .me .cat .tail { transform-box: fill-box; transform-origin: 100% 100%; animation: tail 1.1s ease-in-out infinite alternate; }
+@keyframes tail { from { transform: rotate(-10deg); } to { transform: rotate(18deg); } }
+.town .me .bubble-me { transform-box: fill-box; transform-origin: 50% 100%; }
+.town .me[data-act] .bubble-me { animation: pop .35s cubic-bezier(.2,1.4,.4,1) both; }
+@keyframes pop { from { scale: .6; } to { scale: 1; } }
 @keyframes glow { from { opacity: .55; } to { opacity: 1; } }
 
 .stop {
