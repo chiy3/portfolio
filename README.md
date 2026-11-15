@@ -28,6 +28,8 @@ Each case study has grey image slots. To fill one:
 - Home copy and the work list: `index.html`. Each project row has a title, one line, and a headline figure.
 - Case-study text: `work/<project>.html`. Sections are Overview, Challenge, Solution, Impact.
 - Colors and fonts: the `:root` block at the top of `assets/css/site.css`.
+- Motion (the scroll-driven card ring, chapter indicator, press-and-hold lens): `assets/js/site.js`. Visitors with reduced motion turned on get a static grid instead.
+- The page generator lives outside this repo; edit the HTML directly.
 
 ## Preview locally
 

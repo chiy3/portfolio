@@ -8,43 +8,50 @@
 <meta property="og:title" content="Walmart Content Management System | Eric Chi">
 <meta property="og:description" content="A single-source authoring and omni-publishing platform that breaks content into reusable pieces, so one policy change updates every article, message and channel that uses it.">
 <meta property="og:type" content="website">
+<meta name="theme-color" content="#f6f8fa">
 <link rel="icon" href="../assets/img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400&family=Hanken+Grotesk:wght@200;300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/site.css">
+<script src="../assets/js/site.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header wrap">
+<header class="topbar">
   <a class="name" href="../index.html">Eric Chi</a>
-  <nav aria-label="Primary">
-    <ul>
-      <li><a href="../index.html#work">Work</a></li>
-      <li><a href="../index.html#about">About</a></li>
-      <li><a href="https://drive.google.com/file/d/1HwHfpO_xEPReNohrsx-3AhslltdgL9_m/view?usp=sharing">Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
+  <nav aria-label="Sections">
+    <ul class="chapters">
+      <li><a class="mono" href="#overview">Overview</a></li>
+      <li><a class="mono" href="#challenge">Challenge</a></li>
+      <li><a class="mono" href="#solution">Solution</a></li>
+      <li><a class="mono" href="#impact">Impact</a></li>
     </ul>
   </nav>
+  <div class="end">
+    <a class="mono" href="https://drive.google.com/file/d/1HwHfpO_xEPReNohrsx-3AhslltdgL9_m/view?usp=sharing">Resume</a>
+    <a class="mono" href="mailto:eric.ycchi@gmail.com">Email</a>
+  </div>
 </header>
 <main id="main">
-<div class="wrap">
-  <div class="case-head">
-    <a class="back" href="../index.html#work">All work</a>
+<div class="case-hero">
+  <div class="inner">
+    <a class="back mono" href="../index.html#work">All work</a>
     <h1>Walmart Content Management System</h1>
     <p class="summary">A single-source authoring and omni-publishing platform that breaks content into reusable pieces, so one policy change updates every article, message and channel that uses it.</p>
+    <dl class="outcomes" aria-label="Outcomes">
+      <div><dt>content reusability</dt><dd>70%</dd></div>
+      <div><dt>a year in authoring efficiency gains</dt><dd>$1M+</dd></div>
+      <div><dt>hours saved a year</dt><dd>20,000+</dd></div>
+    </dl>
   </div>
-  <dl class="outcomes" aria-label="Outcomes">
-    <div><dt>content reusability</dt><dd>70%</dd></div>
-    <div><dt>a year in authoring efficiency gains</dt><dd>$1M+</dd></div>
-    <div><dt>hours saved a year</dt><dd>20,000+</dd></div>
-  </dl>
-  <div class="case-body">
-  <section>
+</div>
+<div class="wrap case-body">
+  <section id="overview">
     <h2>Overview</h2>
     <div class="prose">
       <p>Fast access to accurate content drives efficiency and continuous improvement. Walmart&#x27;s Content Management System is designed to maximize reuse and cut the cost of creating and maintaining content. By breaking information into smaller reusable components, it lets writers create, update and maintain content quickly and consistently.</p>
     </div>
   </section>
-  <section>
+  <section id="challenge">
     <h2>Challenge</h2>
     <div class="prose">
       <p>Each year the content team handles more than 10,000 requests to update or create content across Walmart, including communications, store help centers, IVR, chatbots and more. Writers relied on nine different tools to create, maintain, publish and store it. Because every piece of content was treated individually, two problems followed.</p>
@@ -60,7 +67,7 @@
     <div class="slot">Image: Content Management System home</div>
     <figcaption>Content Management System home</figcaption>
   </figure>
-  <section>
+  <section id="solution">
     <h2>Solution</h2>
     <div class="prose">
       <p>The system is built on single-source authoring and centralized omni-publishing across business lines and audiences. Content is broken into modular elements that are assembled into collections and published as different deliverables, such as articles and customer-facing messages.</p>
@@ -73,29 +80,31 @@
     <div class="slot">Image: Assembling modular content into collections</div>
     <figcaption>Assembling modular content into collections</figcaption>
   </figure>
-  <section>
+  <section id="impact">
     <h2>Impact</h2>
     <div class="prose">
       <p>With 70% content reusability on a single platform, the product delivers more than $1 million a year in authoring efficiency and saves over 20,000 hours annually.</p>
     </div>
   </section>
-  </div>
-  <nav class="next" aria-label="Next project">
-    <p>Next project</p>
-    <a href="post-contact-survey.html">Walmart Post Contact Survey</a>
-  </nav>
 </div>
+<nav class="next" aria-label="Next project">
+  <a href="post-contact-survey.html"><span class="mono">Next project</span><span class="title">Walmart Post Contact Survey</span></a>
+</nav>
 </main>
-<footer class="site-footer" id="contact">
-  <div class="wrap">
-    <p>Hiring, or want the full walkthrough of a project? Write to me.</p>
+<section class="panel dusk contact" id="contact" aria-labelledby="contact-title">
+  <div class="inner">
+    <h2 class="mono" id="contact-title">Contact</h2>
+    <p class="lead">Hiring, or want the full walkthrough of a project?</p>
     <a class="email" href="mailto:eric.ycchi@gmail.com">eric.ycchi@gmail.com</a>
-    <ul>
+    <ul class="pills">
       <li><a href="https://www.linkedin.com/in/ycchi/">LinkedIn</a></li>
       <li><a href="https://drive.google.com/file/d/1HwHfpO_xEPReNohrsx-3AhslltdgL9_m/view?usp=sharing">Resume</a></li>
     </ul>
-    <small>© 2026 Eric Chi</small>
   </div>
+</section>
+<footer class="foot mono">
+  <span>© 2026 Eric Chi</span>
+  <a href="#main">Back to top</a>
 </footer>
 </body>
 </html>

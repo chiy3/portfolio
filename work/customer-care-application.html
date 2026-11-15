@@ -8,43 +8,50 @@
 <meta property="og:title" content="Walmart Customer Care Application | Eric Chi">
 <meta property="og:description" content="A next-generation, issue-driven care application that guides frontline agents through each customer issue with the right information and actions at every step, and automates the rest.">
 <meta property="og:type" content="website">
+<meta name="theme-color" content="#f6f8fa">
 <link rel="icon" href="../assets/img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400&family=Hanken+Grotesk:wght@200;300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/site.css">
+<script src="../assets/js/site.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header wrap">
+<header class="topbar">
   <a class="name" href="../index.html">Eric Chi</a>
-  <nav aria-label="Primary">
-    <ul>
-      <li><a href="../index.html#work">Work</a></li>
-      <li><a href="../index.html#about">About</a></li>
-      <li><a href="https://drive.google.com/file/d/1HwHfpO_xEPReNohrsx-3AhslltdgL9_m/view?usp=sharing">Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
+  <nav aria-label="Sections">
+    <ul class="chapters">
+      <li><a class="mono" href="#overview">Overview</a></li>
+      <li><a class="mono" href="#challenge">Challenge</a></li>
+      <li><a class="mono" href="#solution">Solution</a></li>
+      <li><a class="mono" href="#impact">Impact</a></li>
     </ul>
   </nav>
+  <div class="end">
+    <a class="mono" href="https://drive.google.com/file/d/1HwHfpO_xEPReNohrsx-3AhslltdgL9_m/view?usp=sharing">Resume</a>
+    <a class="mono" href="mailto:eric.ycchi@gmail.com">Email</a>
+  </div>
 </header>
 <main id="main">
-<div class="wrap">
-  <div class="case-head">
-    <a class="back" href="../index.html#work">All work</a>
+<div class="case-hero">
+  <div class="inner">
+    <a class="back mono" href="../index.html#work">All work</a>
     <h1>Walmart Customer Care Application</h1>
     <p class="summary">A next-generation, issue-driven care application that guides frontline agents through each customer issue with the right information and actions at every step, and automates the rest.</p>
+    <dl class="outcomes" aria-label="Outcomes">
+      <div><dt>increase in customer satisfaction score</dt><dd>~10%</dd></div>
+      <div><dt>improvement in average handling time and repeat contact rate</dt><dd>Double digits</dd></div>
+      <div><dt>reduction in training costs</dt><dd>30%+</dd></div>
+    </dl>
   </div>
-  <dl class="outcomes" aria-label="Outcomes">
-    <div><dt>increase in customer satisfaction score</dt><dd>~10%</dd></div>
-    <div><dt>improvement in average handling time and repeat contact rate</dt><dd>Double digits</dd></div>
-    <div><dt>reduction in training costs</dt><dd>30%+</dd></div>
-  </dl>
-  <div class="case-body">
-  <section>
+</div>
+<div class="wrap case-body">
+  <section id="overview">
     <h2>Overview</h2>
     <div class="prose">
       <p>With Walmart eCommerce passing $100 billion in sales and Walmart+ growing quickly, customer care matters more than ever. The Customer Care Application is a one-stop solution that uses automation and AI to help frontline agents deliver efficient, satisfying support and build strong relationships with customers and members.</p>
     </div>
   </section>
-  <section>
+  <section id="challenge">
     <h2>Challenge</h2>
     <div class="prose">
       <p>In the legacy, action-driven system, resolving an issue depended heavily on each agent&#x27;s skills and knowledge. That caused three problems.</p>
@@ -62,7 +69,7 @@
     <div class="slot">Image: Customer Care Application home</div>
     <figcaption>Customer Care Application home</figcaption>
   </figure>
-  <section>
+  <section id="solution">
     <h2>Solution</h2>
     <div class="prose">
       <p>We designed an issue-driven application built on modular guided workflows and automation.</p>
@@ -76,30 +83,32 @@
     <div class="slot">Image: Guided workflow for a customer issue</div>
     <figcaption>Guided workflow for a customer issue</figcaption>
   </figure>
-  <section>
+  <section id="impact">
     <h2>Impact</h2>
     <div class="prose">
       <p>The product has been adopted across Walmart business units, including Walmart US eCommerce and stores, Spark Driver (Walmart&#x27;s last-mile delivery service) and Walmart International.</p>
       <p>Average handling time and repeat contact rate both improved by double digits. Customer satisfaction rose by nearly 10%, and training costs dropped by more than 30%.</p>
     </div>
   </section>
-  </div>
-  <nav class="next" aria-label="Next project">
-    <p>Next project</p>
-    <a href="workflow-engine.html">Walmart Customer Care Workflow Engine</a>
-  </nav>
 </div>
+<nav class="next" aria-label="Next project">
+  <a href="workflow-engine.html"><span class="mono">Next project</span><span class="title">Walmart Customer Care Workflow Engine</span></a>
+</nav>
 </main>
-<footer class="site-footer" id="contact">
-  <div class="wrap">
-    <p>Hiring, or want the full walkthrough of a project? Write to me.</p>
+<section class="panel dusk contact" id="contact" aria-labelledby="contact-title">
+  <div class="inner">
+    <h2 class="mono" id="contact-title">Contact</h2>
+    <p class="lead">Hiring, or want the full walkthrough of a project?</p>
     <a class="email" href="mailto:eric.ycchi@gmail.com">eric.ycchi@gmail.com</a>
-    <ul>
+    <ul class="pills">
       <li><a href="https://www.linkedin.com/in/ycchi/">LinkedIn</a></li>
       <li><a href="https://drive.google.com/file/d/1HwHfpO_xEPReNohrsx-3AhslltdgL9_m/view?usp=sharing">Resume</a></li>
     </ul>
-    <small>© 2026 Eric Chi</small>
   </div>
+</section>
+<footer class="foot mono">
+  <span>© 2026 Eric Chi</span>
+  <a href="#main">Back to top</a>
 </footer>
 </body>
 </html>

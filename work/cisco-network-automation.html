@@ -8,36 +8,41 @@
 <meta property="og:title" content="Cisco Crosswork Network Automation | Eric Chi">
 <meta property="og:description" content="Crosswork Network Automation automates the configuration, management, testing, deployment and operation of physical and virtual network devices. I focused on usability and accessibility through its design system.">
 <meta property="og:type" content="website">
+<meta name="theme-color" content="#f6f8fa">
 <link rel="icon" href="../assets/img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400&family=Hanken+Grotesk:wght@200;300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/site.css">
+<script src="../assets/js/site.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header wrap">
+<header class="topbar">
   <a class="name" href="../index.html">Eric Chi</a>
-  <nav aria-label="Primary">
-    <ul>
-      <li><a href="../index.html#work">Work</a></li>
-      <li><a href="../index.html#about">About</a></li>
-      <li><a href="https://drive.google.com/file/d/1HwHfpO_xEPReNohrsx-3AhslltdgL9_m/view?usp=sharing">Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
+  <nav aria-label="Sections">
+    <ul class="chapters">
+      <li><a class="mono" href="#overview">Overview</a></li>
+      <li><a class="mono" href="#more-detail">More detail</a></li>
     </ul>
   </nav>
+  <div class="end">
+    <a class="mono" href="https://drive.google.com/file/d/1HwHfpO_xEPReNohrsx-3AhslltdgL9_m/view?usp=sharing">Resume</a>
+    <a class="mono" href="mailto:eric.ycchi@gmail.com">Email</a>
+  </div>
 </header>
 <main id="main">
-<div class="wrap">
-  <div class="case-head">
-    <a class="back" href="../index.html#work">All work</a>
+<div class="case-hero">
+  <div class="inner">
+    <a class="back mono" href="../index.html#work">All work</a>
     <h1>Cisco Crosswork Network Automation</h1>
     <p class="summary">Crosswork Network Automation automates the configuration, management, testing, deployment and operation of physical and virtual network devices. I focused on usability and accessibility through its design system.</p>
+    <dl class="outcomes" aria-label="Outcomes">
+      <div><dt>growth of the Crosswork design system</dt><dd>+20%</dd></div>
+      <div><dt>design efficiency for the team</dt><dd>+10%</dd></div>
+    </dl>
   </div>
-  <dl class="outcomes" aria-label="Outcomes">
-    <div><dt>growth of the Crosswork design system</dt><dd>+20%</dd></div>
-    <div><dt>design efficiency for the team</dt><dd>+10%</dd></div>
-  </dl>
-  <div class="case-body">
-  <section>
+</div>
+<div class="wrap case-body">
+  <section id="overview">
     <h2>Overview</h2>
     <div class="prose">
       <p>Crosswork Network Automation is a platform for automating the configuration, management, testing, deployment and operation of both physical and virtual network devices.</p>
@@ -50,29 +55,31 @@
     <div class="slot">Image: Crosswork Network Automation</div>
     <figcaption>Crosswork Network Automation</figcaption>
   </figure>
-  <section>
+  <section id="more-detail">
     <h2>More detail</h2>
     <div class="prose">
       <p>This work is covered by confidentiality. I'm happy to walk you through it in more depth. <a href="mailto:eric.ycchi@gmail.com">Email me</a>.</p>
     </div>
   </section>
-  </div>
-  <nav class="next" aria-label="Next project">
-    <p>Next project</p>
-    <a href="objectrocket-control-center.html">ObjectRocket Database Control Center</a>
-  </nav>
 </div>
+<nav class="next" aria-label="Next project">
+  <a href="objectrocket-control-center.html"><span class="mono">Next project</span><span class="title">ObjectRocket Database Control Center</span></a>
+</nav>
 </main>
-<footer class="site-footer" id="contact">
-  <div class="wrap">
-    <p>Hiring, or want the full walkthrough of a project? Write to me.</p>
+<section class="panel dusk contact" id="contact" aria-labelledby="contact-title">
+  <div class="inner">
+    <h2 class="mono" id="contact-title">Contact</h2>
+    <p class="lead">Hiring, or want the full walkthrough of a project?</p>
     <a class="email" href="mailto:eric.ycchi@gmail.com">eric.ycchi@gmail.com</a>
-    <ul>
+    <ul class="pills">
       <li><a href="https://www.linkedin.com/in/ycchi/">LinkedIn</a></li>
       <li><a href="https://drive.google.com/file/d/1HwHfpO_xEPReNohrsx-3AhslltdgL9_m/view?usp=sharing">Resume</a></li>
     </ul>
-    <small>© 2026 Eric Chi</small>
   </div>
+</section>
+<footer class="foot mono">
+  <span>© 2026 Eric Chi</span>
+  <a href="#main">Back to top</a>
 </footer>
 </body>
 </html>
