@@ -85,26 +85,6 @@ h1, h2, h3 { font-weight: 600; letter-spacing: -0.022em; line-height: 1.08; marg
   background: linear-gradient(180deg, #e4edf3 0%, var(--bg) 60%);
 }
 .scene { position: absolute; inset: 0; width: 100%; height: 100%; font-family: var(--sans); }
-/* 3D town: canvas plus HTML overlays (pins, name tag, bubbles) */
-.town canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
-.town .fallback { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; display: none; }
-.town.no-webgl canvas { display: none; }
-.town.no-webgl .fallback { display: block; }
-.town .overlay { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
-.town .overlay > div { position: absolute; left: 0; top: 0; will-change: transform; }
-.pin3d svg { display: block; translate: -50% -100%; overflow: visible; }
-.pin3d .drop { fill: #1d1d1f; transition: fill .3s; }
-.pin3d .pulse { fill: var(--blue); opacity: 0; transform-box: fill-box; transform-origin: center; }
-.pin3d.is-active .drop { fill: var(--blue); }
-.pin3d.is-active .pulse { animation: pulse 1.8s ease-out infinite; }
-.me-tag3d { translate: -50% -100%; margin-top: -6px; background: #1d1d1f; color: #fff; font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 99px; transition: opacity .3s; white-space: nowrap; }
-.me-tag3d.off { opacity: 0; }
-.bubble3d { translate: -50% -100%; margin-top: -10px; background: #fff; border-radius: 12px; padding: 6px 10px; box-shadow: 0 4px 16px rgba(0,0,0,.12); font-size: 14px; line-height: 1; opacity: 0; scale: .7; transition: opacity .3s, scale .35s cubic-bezier(.2,1.4,.4,1); white-space: nowrap; }
-.bubble3d::after { content: ""; position: absolute; left: 50%; bottom: -5px; margin-left: -5px; border: 5px solid transparent; border-top-color: #fff; border-bottom: 0; }
-.bubble3d.on { opacity: 1; scale: 1; }
-.bubble3d svg { display: block; }
-.bubble3d.stars { opacity: 1; scale: 1; color: #f0b429; font-size: 11px; letter-spacing: 1px; padding: 4px 8px; }
-.bubble3d.stars span { color: #d9dde2; }
 .scene:not(.town) { opacity: 0; visibility: hidden; }
 .room .screen { opacity: 0; transition: opacity .5s ease; }
 .room .screen.on { opacity: 1; }
