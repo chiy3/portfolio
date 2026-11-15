@@ -44,7 +44,7 @@
     const pad = kind === "overview" || kind === "overview-first" ? 0 : 20;
     const fw = x1 - x0 + pad * 2, fh = y1 - y0 + pad * 2;
     let aw, ah, ax, ay;
-    if (kind === "overview-first") { aw = W * (narrow ? 0.96 : 0.8); ah = H * (narrow ? 0.42 : 0.44); ax = W / 2; ay = H * 0.74; }
+    if (kind === "overview-first") { aw = W * (narrow ? 0.96 : 0.7); ah = H * (narrow ? 0.34 : 0.34); ax = W / 2; ay = H * (narrow ? 0.8 : 0.81); }
     else if (!card) {
       // Walk-in shots: on a portrait screen, fill the height and crop the sides.
       aw = W * (narrow ? 2.2 : 0.92); ah = H * (narrow ? 0.8 : 0.86); ax = W / 2; ay = H / 2;
@@ -139,7 +139,7 @@
   }
 
   if (tour && !reduce && KEYS.length) {
-    tour.style.height = `${totalW * 82 + 100}vh`;
+    tour.style.height = `${totalW * 64 + 100}vh`;
     const cardKF = cards.map((_, c) => KEYS.findIndex(k => k.card === c));
     dots.forEach((d, j) => d.addEventListener("click", () => {
       const totalPx = tour.offsetHeight - town.clientHeight;
