@@ -98,6 +98,13 @@ h1, h2, h3 { font-weight: 500; letter-spacing: -0.03em; line-height: 1.08; margi
     radial-gradient(1px 1px at 47% 42%, #fff 50%, transparent 51%), radial-gradient(1px 1px at 93% 44%, #fff 50%, transparent 51%);
 }
 .scene { position: absolute; inset: 0; width: 100%; height: 100%; font-family: var(--sans); }
+/* Cursor parallax (set from site.js on mouse devices): scenes are scaled up a touch so a
+   shifted edge never shows, and each layer moves by a different amount. */
+.stage { --px: 0; --py: 0; }
+.stage.parallax .scene { scale: 1.035; translate: calc(var(--px) * -16px) calc(var(--py) * -11px); }
+.stage.parallax::before { translate: calc(var(--px) * 7px) calc(var(--py) * 5px); }
+.stage.parallax .stop:not(.hero) { translate: calc(var(--px) * 6px) calc(var(--py) * 5px); }
+.stage.parallax .stop.hero { translate: calc(var(--px) * 4px) calc(var(--py) * 3px); }
 .scene:not(.town) { opacity: 0; visibility: hidden; }
 .room .screen { opacity: 0; transition: opacity .5s ease; }
 .room .screen.on { opacity: 1; }

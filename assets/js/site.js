@@ -240,6 +240,32 @@
     if (screens[0]) screens[0].classList.add("on");
   }
 
+  /* ---------- Cursor parallax ----------
+     The scene drifts a few pixels toward the cursor, the stars drift the other way and
+     the info card floats a little, so the tour reads as a space with depth. Mouse and
+     trackpad only; never on touch or with reduced motion. */
+  const stage = document.querySelector(".stage");
+  if (stage && !reduce && matchMedia("(hover: hover) and (pointer: fine)").matches) {
+    stage.classList.add("parallax");
+    let tx = 0, ty = 0, x = 0, y = 0, running = false;
+    const step = () => {
+      x += (tx - x) * 0.07; y += (ty - y) * 0.07;
+      stage.style.setProperty("--px", x.toFixed(4));
+      stage.style.setProperty("--py", y.toFixed(4));
+      if (Math.abs(tx - x) + Math.abs(ty - y) > 0.0005) requestAnimationFrame(step); else running = false;
+    };
+    const kick = () => { if (!running) { running = true; requestAnimationFrame(step); } };
+    addEventListener("pointermove", e => {
+      if (e.pointerType !== "mouse") return;
+      const r = stage.getBoundingClientRect();
+      if (r.bottom < 0 || r.top > innerHeight) return;   // tour off screen: nothing to move
+      tx = clamp(e.clientX / innerWidth * 2 - 1, -1, 1);
+      ty = clamp((e.clientY - r.top) / r.height * 2 - 1, -1, 1);
+      kick();
+    }, { passive: true });
+    document.documentElement.addEventListener("pointerleave", () => { tx = 0; ty = 0; kick(); });
+  }
+
   /* ---------- Loop ---------- */
   let ticking = false;
   const frame = () => { updateTour(); updateChapters(); ticking = false; };
