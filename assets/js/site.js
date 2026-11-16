@@ -33,6 +33,7 @@
   const screens = scenes.room ? [...scenes.room.querySelectorAll(".screen")] : [];
   const doors = scenes.facade ? [...scenes.facade.querySelectorAll(".door")] : [];
   const route = town && town.querySelector(".route");
+  const routeGlow = town && town.querySelector(".route-glow");
   const dots = tour ? [...tour.querySelectorAll(".dots button")] : [];
   const weights = KEYS.slice(1).map((k, i) => (KEYS[i].card < 0 && k.card < 0) ? 0.55 : (KEYS[i].card < 0 || k.card < 0) ? 0.8 : 1);
   const totalW = weights.reduce((a, b) => a + b, 0);
@@ -44,7 +45,7 @@
     const pad = kind === "overview" || kind === "overview-first" ? 0 : 20;
     const fw = x1 - x0 + pad * 2, fh = y1 - y0 + pad * 2;
     let aw, ah, ax, ay;
-    if (kind === "overview-first") { aw = W * (narrow ? 0.96 : 0.7); ah = H * (narrow ? 0.34 : 0.34); ax = W / 2; ay = H * (narrow ? 0.8 : 0.81); }
+    if (kind === "overview-first") { aw = W * (narrow ? 1.05 : 0.86); ah = H * (narrow ? 0.38 : 0.45); ax = W / 2; ay = H * (narrow ? 0.78 : 0.765); }
     else if (!card) {
       // Walk-in shots: on a portrait screen, fill the height and crop the sides.
       aw = W * (narrow ? 2.2 : 0.92); ah = H * (narrow ? 0.8 : 0.86); ax = W / 2; ay = H / 2;
@@ -222,7 +223,13 @@
     const at = i + f;
     const rp = clamp((at - (firstRoute - 1)) / 2, 0, 1);
     if (route) route.style.strokeDasharray = `${rp.toFixed(3)} 1`;
+    if (routeGlow) routeGlow.style.strokeDasharray = `${rp.toFixed(3)} 1`;
     moveAvatar(rp);
+    // Light up the stop the tour is on (spotlights are CSS, keyed on data-focus).
+    const fk = KEYS[nearest];
+    town.dataset.focus = fk.scene !== "map" ? "" : nearest === KEYS.length - 1 ? "end" : nearest === 0 ? "" : fk.focus;
+    atHero = i === 0 && f < 0.35;
+    if (atHero) startDrift();
   }
 
   if (tour && !reduce && KEYS.length) {
@@ -237,7 +244,29 @@
   } else if (tour) {
     cards.forEach(s => { s.classList.add("is-active"); s.removeAttribute("inert"); });
     if (route) route.style.strokeDasharray = "1 0";
+    if (routeGlow) routeGlow.style.strokeDasharray = "1 0";
+    if (town) town.dataset.focus = "end";
     if (screens[0]) screens[0].classList.add("on");
+  }
+
+  /* ---------- Hero drift ----------
+     While the first view is on screen, the town drifts slowly so it feels alive before
+     anyone scrolls; the drift eases out as the tour starts. */
+  const stageEl = document.querySelector(".stage");
+  let atHero = false, drifting = false, amp = 0;
+  function startDrift() {
+    if (drifting || reduce || !stageEl) return;
+    drifting = true;
+    const t0 = performance.now();
+    const tick = now => {
+      amp += ((atHero && !document.hidden ? 1 : 0) - amp) * 0.04;
+      const t = (now - t0) / 1000;
+      stageEl.style.setProperty("--dx", (Math.sin(t / 5.5) * 18 * amp).toFixed(2));
+      stageEl.style.setProperty("--dy", (Math.sin(t / 7.3 + 1) * 9 * amp).toFixed(2));
+      if (atHero || amp > 0.01) requestAnimationFrame(tick);
+      else { drifting = false; stageEl.style.setProperty("--dx", 0); stageEl.style.setProperty("--dy", 0); }
+    };
+    requestAnimationFrame(tick);
   }
 
   /* ---------- Cursor parallax ----------
