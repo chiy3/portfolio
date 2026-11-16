@@ -103,6 +103,8 @@ h1, h2, h3 { font-weight: 500; letter-spacing: -0.03em; line-height: 1.08; margi
 .stage { --px: 0; --py: 0; --dx: 0; --dy: 0; }
 @media (prefers-reduced-motion: no-preference) {
   .stage .scene { scale: 1.035; translate: calc(var(--px) * -16px + var(--dx) * 1px) calc(var(--py) * -11px + var(--dy) * 1px); }
+  /* Own compositor layer: drift and parallax then move the picture without repainting it. */
+  .stage .scene { will-change: translate; }
 }
 .stage.parallax::before { translate: calc(var(--px) * 7px) calc(var(--py) * 5px); }
 .stage.parallax .stop:not(.hero) { translate: calc(var(--px) * 6px) calc(var(--py) * 5px); }
