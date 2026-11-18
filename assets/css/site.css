@@ -108,7 +108,7 @@ h1, h2, h3 { font-weight: 500; letter-spacing: -0.03em; line-height: 1.08; margi
 .step .hint { font-size: var(--small); color: var(--mute); margin-top: .6rem; }
 
 .scene { height: 100%; display: grid; place-items: center; perspective: 2200px; perspective-origin: 50% 30%; }
-.spiral { position: relative; width: min(27vw, 350px); aspect-ratio: 16 / 10; transform-style: preserve-3d; margin: 14vh 0 0 -6vw; }
+.spiral { position: relative; width: min(29vw, 380px); aspect-ratio: 12 / 7; transform-style: preserve-3d; margin: 14vh 0 0 -6vw; }
 .layer { position: absolute; inset: 0; transform-style: preserve-3d; }
 .face { position: absolute; inset: 0; border-radius: 12px; background: #1f2024 center / cover no-repeat;
   box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 30px 60px rgba(0,0,0,.5); transition: opacity .5s, filter .5s, box-shadow .5s; }
