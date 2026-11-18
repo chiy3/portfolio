@@ -204,6 +204,9 @@ h1, h2, h3 { font-weight: 500; letter-spacing: -0.03em; line-height: 1.08; margi
 .outcomes div { display: flex; flex-direction: column; gap: .4rem; background: var(--tile); border: 1px solid var(--line); border-radius: 22px; padding: 1.75rem; text-align: left; }
 .outcomes dd { order: -1; margin: 0; font-size: clamp(2.2rem, 1.8rem + 1.6vw, 3rem); font-weight: 500; color: var(--blue); letter-spacing: -0.04em; line-height: 1; }
 .outcomes dt { color: var(--mute); font-size: var(--small); line-height: 1.4; }
+.outcomes .quote dd { font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); letter-spacing: -0.02em; line-height: 1.2; color: var(--ink); }
+.outcomes .quote q { quotes: "\201C" "\201D"; }
+.outcomes .quote dt::before { content: "\2014\00a0"; }
 
 .case-body { padding: clamp(4rem, 10vh, 6rem) 0 clamp(2rem, 6vh, 4rem); }
 .case-body section { margin-bottom: clamp(3rem, 8vh, 5rem); scroll-margin-top: 72px; }
