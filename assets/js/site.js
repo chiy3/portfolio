@@ -82,7 +82,7 @@
   const catLink = document.querySelector(".cat-link"), about = catLink && catLink.closest(".about");
   if (about) {
     const cat = about.querySelector(".cat"), mew = cat.querySelector(".mew"), body = cat.querySelector(".cat-body");
-    const SAYS = ["mrrp?", "meow.", "feed me", "nice kerning", "ship it", "*purrs*", "too many clicks", "hi!"];
+    const SAYS = ["mrrp?", "I'm Grace.", "meow.", "feed me", "nice kerning", "ship it", "*purrs*", "too many clicks"];
     let n = 0, hideTimer = 0, pinned = false;
     const show = () => { clearTimeout(hideTimer); about.classList.add("peek"); catLink.setAttribute("aria-expanded", "true"); };
     const hide = () => { if (pinned) return; hideTimer = setTimeout(() => { about.classList.remove("peek"); catLink.setAttribute("aria-expanded", "false"); }, 900); };
