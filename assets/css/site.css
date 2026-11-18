@@ -276,6 +276,10 @@ h1, h2, h3 { font-weight: 500; letter-spacing: -0.03em; line-height: 1.08; margi
 .glance dd { margin: .1rem 0 0; font-size: var(--small); font-weight: 600; }
 .case-figure { margin: 0 0 1.25rem; background: radial-gradient(120% 90% at 50% 0%, #2a2d33, var(--tile)); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(1.25rem, 5vw, 3.5rem) clamp(1rem, 6vw, 5rem) clamp(1rem, 3vw, 2rem); }
 .case-figure .ui { display: block; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 24px 70px rgba(0,0,0,.5); font-family: var(--sans); }
+.case-figure.real { padding: 0; background: none; border: 0; }
+.case-figure.real img, .shot img { display: block; width: 100%; height: auto; border-radius: 22px; background: var(--tile); }
+.tile-ui img { display: block; width: 100%; height: auto; border-radius: 8px; transition: transform .5s cubic-bezier(.2,.8,.2,1); }
+.tile:hover .tile-ui img { transform: translateY(-2px); }
 .case-figure figcaption { margin-top: 1rem; text-align: center; color: var(--mute); font-size: .8125rem; }
 .outcomes { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; margin: 0; padding: 0; }
 .outcomes div { display: flex; flex-direction: column; gap: .4rem; background: var(--tile); border: 1px solid var(--line); border-radius: 22px; padding: 1.75rem; text-align: left; }
