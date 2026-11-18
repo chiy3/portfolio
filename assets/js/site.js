@@ -1,5 +1,12 @@
 // Eric Chi — portfolio interactions. No dependencies.
 (() => {
+  // Case studies always open at their top, even when the browser or an embedding
+  // preview would otherwise keep the scroll position from the previous page.
+  if (!document.querySelector(".platform") && !location.hash) {
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+    const toTop = () => { scrollTo(0, 0); document.documentElement.scrollIntoView({ block: "start" }); };
+    toTop(); addEventListener("load", toTop); addEventListener("pageshow", e => { if (e.persisted) toTop(); });
+  }
   const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
   const smooth = t => t * t * (3 - 2 * t);
