@@ -28,7 +28,7 @@
     linear-gradient(90deg, transparent, rgba(255,255,255,.14) 50%, transparent) top / 100% 1px no-repeat,
     radial-gradient(45% 70% at 50% 0%, rgba(140,165,200,.12), transparent 70%),
     linear-gradient(rgba(10,11,13,.0), rgba(10,11,13,.55)); }
-.contact { position: absolute; top: var(--fy); width: 46%; height: 46px; pointer-events: none; z-index: 1;
+.floor-shadow { position: absolute; top: var(--fy); width: 46%; height: 46px; pointer-events: none; z-index: 1;
   translate: -50% -50%; scale: var(--cs, 1) 1;
   background: radial-gradient(closest-side, rgba(0,0,0,.75), transparent); }
 

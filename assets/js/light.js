@@ -34,7 +34,7 @@
     clone = spiral.cloneNode(true); refl.appendChild(clone); scene.appendChild(refl);
     cloneLayers = [...clone.querySelectorAll(".layer")];
     floor = document.createElement("div"); floor.className = "floor"; scene.appendChild(floor);
-    contact = document.createElement("div"); contact.className = "contact"; scene.appendChild(contact);
+    contact = document.createElement("div"); contact.className = "floor-shadow"; scene.appendChild(contact);
   }
 
   let fy = null, cx = null;
