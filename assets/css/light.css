@@ -1,0 +1,39 @@
+/* Light, shadow and depth for the homepage spiral (driven by light.js). */
+
+/* ---- Key light ---- */
+.cast { position: absolute; inset: 6%; border-radius: 16px; pointer-events: none;
+  background: rgba(0, 0, 0, .62); filter: blur(16px);
+  transform: translate3d(var(--sx, 16px), var(--sy, 16px), var(--cz, -30px)); transition: background .6s; }
+.layer.on .cast { background: rgba(70, 150, 255, .55); filter: blur(24px); inset: 0; }
+.layer.dim .cast { background: rgba(0, 0, 0, .45); }
+.sheen { position: absolute; inset: 0; border-radius: 12px; pointer-events: none; transition: opacity .5s;
+  background: linear-gradient(var(--la, 135deg), rgba(255,255,255,.34) 0%, rgba(255,255,255,.08) 28%, rgba(255,255,255,0) 50%, rgba(0,0,0,.08) 70%, rgba(0,0,0,.34) 100%);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.12); }
+.layer.dim .sheen { opacity: .35; }
+.layer.on .sheen { box-shadow: inset 0 0 0 1px rgba(255,255,255,.28); }
+
+/* ---- Floor, reflection and contact shadow ---- */
+.scene.has-floor { position: relative; --fy: 84%; }
+.scene.has-floor > .spiral { z-index: 2; }
+.reflect { position: absolute; top: 0; bottom: 0; left: -80%; right: -80%; will-change: transform; display: grid; place-items: center; z-index: 0; pointer-events: none;
+  perspective: 2200px; perspective-origin: 50% 30%;
+  transform-origin: 50% var(--fy); transform: scaleY(-1);
+  opacity: .38; filter: blur(1.5px) saturate(.9);
+  -webkit-mask-image: linear-gradient(to bottom, transparent calc(var(--fy) - 26%), rgba(0,0,0,.95) calc(var(--fy) - .3%), transparent var(--fy));
+          mask-image: linear-gradient(to bottom, transparent calc(var(--fy) - 26%), rgba(0,0,0,.95) calc(var(--fy) - .3%), transparent var(--fy)); }
+.reflect .cast, .reflect .sheen { display: none; }
+.floor { position: absolute; left: -90%; right: -60%;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 35%, #000 75%, transparent); mask-image: linear-gradient(90deg, transparent, #000 35%, #000 75%, transparent); top: var(--fy); height: 30%; pointer-events: none; z-index: 1;
+  background:
+    linear-gradient(90deg, transparent, rgba(255,255,255,.14) 50%, transparent) top / 100% 1px no-repeat,
+    radial-gradient(45% 70% at 50% 0%, rgba(140,165,200,.12), transparent 70%),
+    linear-gradient(rgba(10,11,13,.0), rgba(10,11,13,.55)); }
+.contact { position: absolute; top: var(--fy); width: 46%; height: 46px; pointer-events: none; z-index: 1;
+  translate: -50% -50%; scale: var(--cs, 1) 1;
+  background: radial-gradient(closest-side, rgba(0,0,0,.75), transparent); }
+
+
+/* ---- Tilt toward the cursor ---- */
+.tilt { display: grid; place-items: center; width: 100%; height: 100%; transform-style: preserve-3d; }
+.scene.has-floor > .tilt { position: relative; z-index: 2; }
+.platform .steps { z-index: 3; }   /* text and links stay above the spiral and its floor */
