@@ -168,6 +168,28 @@ h1, h2, h3 { font-weight: 500; letter-spacing: -0.03em; line-height: 1.08; margi
 
 /* About */
 .about { display: grid; grid-template-columns: auto 1fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: start; background: var(--tile); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(2rem, 5vw, 3.5rem); }
+/* The cat: peeks up from the bottom of the About card when "my cat" is hovered or tapped. */
+.about { position: relative; overflow: hidden; padding-bottom: clamp(5rem, 8vw, 6rem) !important; }
+.cat-link { all: unset; cursor: pointer; color: var(--ink); text-decoration: underline dotted var(--blue); text-underline-offset: 4px; text-decoration-thickness: 2px; }
+.cat-link:hover, .cat-link[aria-expanded="true"] { color: var(--blue); }
+.cat-link:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; border-radius: 4px; }
+.cat { position: absolute; right: clamp(1.5rem, 6vw, 4rem); bottom: -4px; width: 120px; pointer-events: none;
+  translate: 0 105%; transition: translate .55s cubic-bezier(.3,1.5,.5,1); }
+.about.peek .cat { translate: 0 0; pointer-events: auto; }
+.cat-body { all: unset; cursor: pointer; display: block; }
+.cat svg { display: block; }
+.cat .mew { position: absolute; right: 92px; top: -6px; white-space: nowrap; font-size: .8125rem; font-weight: 500; color: #17181b; background: var(--ink);
+  padding: .3rem .65rem; border-radius: 999px 999px 4px 999px; opacity: 0; scale: .7; transform-origin: 100% 100%; transition: opacity .25s .25s, scale .35s .25s cubic-bezier(.3,1.6,.5,1); }
+.about.peek .cat .mew { opacity: 1; scale: 1; }
+.cat .ear { transform-box: fill-box; transform-origin: 50% 100%; }
+.about.peek .cat .ear-l { animation: flick 2.6s 1s ease-in-out infinite; }
+.about.peek .cat .ear-r { animation: flick 2.6s 1.4s ease-in-out infinite; }
+@keyframes flick { 0%, 86%, 100% { rotate: 0deg; } 90% { rotate: -14deg; } 94% { rotate: 6deg; } }
+.cat .eyes { transform-box: fill-box; transform-origin: 50% 50%; animation: blink 4.5s 1.2s infinite; }
+@keyframes blink { 0%, 92%, 100% { scale: 1 1; } 95% { scale: 1 .1; } }
+.cat.hop svg { animation: hop .45s cubic-bezier(.3,1.4,.5,1); }
+@keyframes hop { 40% { translate: 0 -14px; } }
+@media (prefers-reduced-motion: reduce) { .cat { transition: none; } }
 .about .portrait { width: clamp(5rem, 10vw, 7.5rem); border-radius: 50%; background: var(--tile-2); }
 .about h2 { font-size: var(--h2); margin-bottom: 1rem; }
 .about p { margin: 0 0 1rem; max-width: 40rem; }

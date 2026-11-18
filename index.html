@@ -145,13 +145,30 @@
 <section class="section" id="about" aria-labelledby="about-title">
   <div class="wrap">
     <div class="about">
+      <div class="cat" id="cat" aria-hidden="true">
+        <span class="mew">mrrp?</span>
+        <button class="cat-body" type="button" tabindex="-1" aria-label="Pet the cat">
+        <svg viewBox="0 0 120 92" width="120" height="92">
+          <g class="ear ear-l"><path d="M24 40 L30 6 L52 28 Z" fill="#e8a25c"/><path d="M30 34 L33 15 L45 28 Z" fill="#f5c9a3"/></g>
+          <g class="ear ear-r"><path d="M96 40 L90 6 L68 28 Z" fill="#e8a25c"/><path d="M90 34 L87 15 L75 28 Z" fill="#f5c9a3"/></g>
+          <path d="M14 92 C 12 50 30 22 60 22 C 90 22 108 50 106 92 Z" fill="#e8a25c"/>
+          <path d="M44 26 Q 50 34 48 44 M60 22 L60 38 M76 26 Q 70 34 72 44" stroke="#d48a45" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <g class="eyes"><ellipse cx="44" cy="56" rx="6" ry="7" fill="#1d1d1f"/><ellipse cx="76" cy="56" rx="6" ry="7" fill="#1d1d1f"/>
+            <circle cx="46" cy="53" r="2" fill="#fff"/><circle cx="78" cy="53" r="2" fill="#fff"/></g>
+          <path d="M56 66 L64 66 L60 71 Z" fill="#c9695a"/>
+          <path d="M60 71 Q 55 77 50 74 M60 71 Q 65 77 70 74" stroke="#7a4a2e" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M34 68 L14 64 M34 72 L14 74 M86 68 L106 64 M86 72 L106 74" stroke="#fff" stroke-opacity=".7" stroke-width="1.6" stroke-linecap="round"/>
+          <ellipse cx="38" cy="90" rx="13" ry="8" fill="#f2b679"/><ellipse cx="82" cy="90" rx="13" ry="8" fill="#f2b679"/>
+        </svg>
+        </button>
+      </div>
       <img class="portrait" src="assets/img/headshot.png" alt="Portrait of Eric Chi" width="120" height="120">
       <div>
         <h2 id="about-title">About Eric.</h2>
         <p class="lead">I design for simplicity: breaking complex problems down into clear experiences.</p>
         <p>I've spent 6+ years in product design, across managed databases at Rackspace's ObjectRocket, network automation at Cisco and customer care at Walmart. I believe good design makes the complex feel simple, so people can focus on the work, not the tool.</p>
         <p>Much of this work is confidential. The case studies are summaries, and I'm glad to walk through any of them in more depth on a call.</p>
-        <p>Based in the San Francisco Bay Area. Outside of work, I'm on cat duty: my cat is my favorite coworker and my toughest design critic.</p>
+        <p>Based in the San Francisco Bay Area. Outside of work, I'm on cat duty: <button class="cat-link" type="button" aria-controls="cat">my cat</button> is my favorite coworker and my toughest design critic.</p>
       </div>
     </div>
   </div>
