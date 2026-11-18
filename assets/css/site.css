@@ -180,7 +180,7 @@ h1, h2, h3 { font-weight: 500; letter-spacing: -0.03em; line-height: 1.08; margi
 .contact .email { display: inline-block; margin-top: 1.5rem; font-size: var(--h2); font-weight: 500; color: var(--ink); letter-spacing: -0.02em; overflow-wrap: anywhere; }
 .contact .actions { display: flex; gap: .75rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem; }
 .foot-links { display: flex; gap: 1.25rem; }
-.foot { border-top: 1px solid var(--line); margin-top: clamp(3rem, 8vh, 5rem); padding: 1.25rem 0 2rem; font-size: .75rem; color: var(--mute); display: flex; justify-content: space-between; gap: 1rem; }
+.foot { border-top: 1px solid var(--line); margin-top: clamp(1rem, 4vh, 3rem); padding: 1.25rem 0 2rem; font-size: .75rem; color: var(--mute); display: flex; justify-content: space-between; gap: 1rem; }
 
 /* ---------- Case study ---------- */
 
